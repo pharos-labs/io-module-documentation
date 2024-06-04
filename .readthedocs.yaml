@@ -15,8 +15,3 @@ sphinx:
 python:
    install:
    - requirements: sphinx-src/requirements.txt
-
-# Build PDF & ePub
-formats:
-  - epub
-  - pdf
