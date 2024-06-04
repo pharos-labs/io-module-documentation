@@ -54,14 +54,13 @@ data = resp.json()
 
 moduleTable = open('module_table.rst', 'w')
 moduleTable.write('''.. list-table:: Modules
-:widths: 25 25 10 40
-:header-rows: 1
+   :widths: 25 25 10 40
+   :header-rows: 1
 
-* - Category
-    - Module
-    - Latest Version
-    - Description\n''')
-
+   * - Category
+     - Module
+     - Latest Version
+     - Description\n''')
 
 with tempfile.TemporaryDirectory() as tempDir:
     for group in data:
