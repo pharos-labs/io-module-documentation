@@ -54,12 +54,13 @@ data = resp.json()
 
 moduleTable = open('module_table.rst', 'w')
 moduleTable.write('''.. list-table:: Modules
-   :widths: 25 25 10 40
+   :widths: 25 25 10 10 40
    :header-rows: 1
 
    * - Category
      - Module
      - Latest Version
+     - API Version
      - Description\n''')
 
 with tempfile.TemporaryDirectory() as tempDir:
@@ -83,6 +84,7 @@ with tempfile.TemporaryDirectory() as tempDir:
             moduleTable.write(f'   * - {groupName}\n')
             moduleTable.write(f'     - :doc:`{module['name']}<iom/{groupName}/{version['path']}>`\n')
             moduleTable.write(f'     - {version['version']}\n')
+            moduleTable.write(f'     - {version['apiVersion']}\n')
             moduleTable.write(f'     - {module['description']}\n')
 
             moduleData = requests.get(BASE_URL + version['path'] + IOM_EXTENSION)
