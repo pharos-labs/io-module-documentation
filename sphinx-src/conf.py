@@ -17,7 +17,6 @@
 #
 import os
 import datetime
-from recommonmark.parser import CommonMarkParser
 import subprocess
 
 # -- General configuration ------------------------------------------------
@@ -39,8 +38,6 @@ templates_path = ['_templates']
 #
 # source_suffix = ['.rst', '.md']
 source_suffix = ['.rst', '.md']
-
-source_parsers = {'.md': CommonMarkParser}
 
 # The master toctree document.
 master_doc = 'index'
