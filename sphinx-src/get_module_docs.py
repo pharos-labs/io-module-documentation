@@ -52,21 +52,30 @@ print('Downloading IO module library')
 resp = requests.get(url=BASE_URL + LIBRARY_DESCRIPTION)
 data = resp.json()
 
+# Table of modules
 moduleTable = open('module_table.rst', 'w')
 moduleTable.write('''.. list-table:: Modules
-   :widths: 25 25 10 10 40
+   :widths: 25 25 10 40 10
    :header-rows: 1
 
    * - Category
      - Module
-     - Latest Version
-     - API Version
-     - Description\n''')
+     - Module Version
+     - Description
+     - IOM API Version\n''')
+
+# Table of contents
+tocFile = open('toc.rst', 'w')
+tocFile.write(':nosearch:\n')
 
 with tempfile.TemporaryDirectory() as tempDir:
     for group in data:
 
         groupName = group['groupName']
+
+        tocFile.write(f'''.. toctree::
+   :caption: {groupName}
+   :hidden:\n\n''')
 
         # Make an output directory for the group
         try:
@@ -84,8 +93,10 @@ with tempfile.TemporaryDirectory() as tempDir:
             moduleTable.write(f'   * - {groupName}\n')
             moduleTable.write(f'     - :doc:`{module['name']}<iom/{groupName}/{version['path']}>`\n')
             moduleTable.write(f'     - {version['version']}\n')
-            moduleTable.write(f'     - {version['apiVersion']}\n')
             moduleTable.write(f'     - {module['description']}\n')
+            moduleTable.write(f'     - {version['apiVersion']}\n')
+
+            tocFile.write(f'   {module['name']} <iom/{groupName}/{version['path']}>\n')
 
             moduleData = requests.get(BASE_URL + version['path'] + IOM_EXTENSION)
 
