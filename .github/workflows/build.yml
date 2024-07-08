@@ -1,0 +1,29 @@
+name: Update IOM Documentation
+on:
+  schedule:
+    - cron: '0 2 * * *' # run at 2 AM UTC
+  # Allow manual trigger from web interface as well
+  workflow_dispatch:
+
+jobs:
+    nightly:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+            python-version: '3.12'
+
+      - name: Fetch and parse out IoM Documentation
+        run: python get_module_docs.py
+
+      - name: Commit Documentation Update
+        run: |
+          git config --global user.name 'Pharos Labs'
+          git config --global user.email 'support@pharoscontrols.com'
+          git add .
+          git commit -am "Automated Update"
+          git push
