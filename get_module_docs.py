@@ -10,6 +10,7 @@ import shutil
 BASE_URL = 'https://dl.pharoscontrols.com/resources/io_modules/'
 LIBRARY_DESCRIPTION = 'module_library_v2.json'
 IOM_EXTENSION = '.iom'
+DOCS_DIR = 'sphinx-src'
 
 
 # Version key function used for sorting modules by version
@@ -42,18 +43,12 @@ def getHighestVersion(moduleArray):
     moduleArray.sort(key=sortVersionKey, reverse=True)
     return moduleArray[0]
 
-# Create the directory for IOMs
-try:
-    os.mkdir('iom')
-except:
-    print('Could not make IOM directory')
-
 print('Downloading IO module library')
 resp = requests.get(url=BASE_URL + LIBRARY_DESCRIPTION)
 data = resp.json()
 
 # Table of modules
-moduleTable = open('module_table.rst', 'w')
+moduleTable = open(os.path.join(DOCS_DIR, 'module_table.rst'), 'w')
 moduleTable.write('''.. list-table:: Modules
    :widths: 25 25 10 40 10
    :header-rows: 1
@@ -65,8 +60,7 @@ moduleTable.write('''.. list-table:: Modules
      - IOM API Version\n''')
 
 # Table of contents
-tocFile = open('toc.rst', 'w')
-tocFile.write(':nosearch:\n')
+tocFile = open(os.path.join(DOCS_DIR, 'toc.rst'), 'w')
 
 with tempfile.TemporaryDirectory() as tempDir:
     for group in data:
@@ -78,17 +72,19 @@ with tempfile.TemporaryDirectory() as tempDir:
    :hidden:\n\n''')
 
         # Make an output directory for the group
-        try:
-            os.mkdir(os.path.join('iom',groupName))
-        except:
-            print(f'Error making directory for {groupName}')
+        groupDirPath = os.path.join(DOCS_DIR, 'iom',groupName)
+        if not os.path.exists(groupDirPath):
+            try:
+                os.mkdir(groupDirPath)
+            except:
+                print(f'Error making directory {groupDirPath}')
 
         for module in group['modules']:
             print('Extracting ' + module['name'])
             version = getHighestVersion(module['versions'])
             print(f'Highest version {version['version']}')
 
-            outputFilename = os.path.join('iom', groupName, f'{version['path']}.md')
+            outputFilename = os.path.join(groupDirPath, f'{version['path']}.md')
 
             moduleTable.write(f'   * - {groupName}\n')
             moduleTable.write(f'     - :doc:`{module['name']}<iom/{groupName}/{version['path']}>`\n')
