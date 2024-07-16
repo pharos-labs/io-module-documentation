@@ -138,6 +138,7 @@
    Controller HTTP API Over... <iom/BETA/controller_http_api_over_2.1.0.BETA1>
    DMX Value Mapper <iom/BETA/dmx_value_mapper_2.1.0.BETA3>
    Genelec Smart IP <iom/BETA/genelec_smart_ip_2.0.0.BETA3>
+   Lutron Athena/Vive (LEAP API) <iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>
    MPD <iom/BETA/mpd_2.0.0.BETA1>
    Modbus <iom/BETA/modbus_2.2.0.BETA2>
    RDM Discovery <iom/BETA/rdm_2.0.1.BETA3>

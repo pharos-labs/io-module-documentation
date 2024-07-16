@@ -548,6 +548,11 @@
      - Interact with Genelec Smart IP Speakers
      - 2.5.0
    * - BETA
+     - :doc:`Lutron Athena/Vive (LEAP API)<iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>`
+     - 2.2.0.BETA1
+     - Lutron Extensible Application Protocol (LEAP)
+     - 2.4.0
+   * - BETA
      - :doc:`MPD<iom/BETA/mpd_2.0.0.BETA1>`
      - 2.0.0.BETA1
      - Interact and control an MPD server
