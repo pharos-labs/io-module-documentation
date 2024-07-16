@@ -30,8 +30,12 @@ jobs:
           git config --global user.name 'Pharos Labs'
           git config --global user.email 'support@pharoscontrols.com'
           # Check for any changes
+          set +e
+          set +o pipefail
           git diff --exit-code
           if [ $? -eq 1 ]; then
+          set -e
+          set -o pipefail
           git add .
           git commit -am "Automated Update"
           git push
