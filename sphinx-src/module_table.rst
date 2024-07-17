@@ -58,6 +58,11 @@
      - Interacts with an Expert controller using Pharos HTTP API
      - 2.4.0
    * - Device Integration
+     - :doc:`Genelec Smart IP<iom/Device Integration/genelec_smart_ip_2.0.0>`
+     - 2.0.0
+     - Interact with Genelec Smart IP Speakers
+     - 2.5.0
+   * - Device Integration
      - :doc:`KissBox IO CardCages<iom/Device Integration/kissbox_io_cardcages_2.1.2>`
      - 2.1.2
      - Integrates with KissBox IO CardCages
@@ -542,11 +547,6 @@
      - 2.1.0.BETA3
      - Maps DMX channel values to Trigger variables, when a change in a DMX value is detected
      - 2.2.0
-   * - BETA
-     - :doc:`Genelec Smart IP<iom/BETA/genelec_smart_ip_2.0.0.BETA3>`
-     - 2.0.0.BETA3
-     - Interact with Genelec Smart IP Speakers
-     - 2.5.0
    * - BETA
      - :doc:`Lutron Athena/Vive (LEAP API)<iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>`
      - 2.2.0.BETA1

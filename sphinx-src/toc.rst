@@ -12,6 +12,7 @@
    DiGidot <iom/Device Integration/digidot_2.0>
    ETC Response SnapBack <iom/Device Integration/etc_response_snapback_2.0.0>
    Expert <iom/Device Integration/expert_2.0.0>
+   Genelec Smart IP <iom/Device Integration/genelec_smart_ip_2.0.0>
    KissBox IO CardCages <iom/Device Integration/kissbox_io_cardcages_2.1.2>
    Level Developments LCH-360 <iom/Device Integration/level_developments_lch_360_2.0.1>
    Madrix 5 <iom/Device Integration/madrix_5_2.0.0>
@@ -137,7 +138,6 @@
 
    Controller HTTP API Over... <iom/BETA/controller_http_api_over_2.1.0.BETA1>
    DMX Value Mapper <iom/BETA/dmx_value_mapper_2.1.0.BETA3>
-   Genelec Smart IP <iom/BETA/genelec_smart_ip_2.0.0.BETA3>
    Lutron Athena/Vive (LEAP API) <iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>
    MPD <iom/BETA/mpd_2.0.0.BETA1>
    Modbus <iom/BETA/modbus_2.2.0.BETA2>
