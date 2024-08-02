@@ -303,8 +303,8 @@
      - Sends a custom Syslog messages
      - 2.2.0
    * - Protocols & Standards
-     - :doc:`Telnet Client<iom/Protocols & Standards/telnet_client_2.3.1>`
-     - 2.3.1
+     - :doc:`Telnet Client<iom/Protocols & Standards/telnet_client_2.3.2>`
+     - 2.3.2
      - Opens a Telnet connection to another device to send and receive Telnet messages
      - 2.2.0
    * - Protocols & Standards

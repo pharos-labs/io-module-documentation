@@ -73,7 +73,7 @@
    OSC <iom/Protocols & Standards/osc_2.1.2>
    Ping <iom/Protocols & Standards/ping_2.0.0>
    Syslog <iom/Protocols & Standards/syslog_2.0>
-   Telnet Client <iom/Protocols & Standards/telnet_client_2.3.1>
+   Telnet Client <iom/Protocols & Standards/telnet_client_2.3.2>
    Wake-on-LAN <iom/Protocols & Standards/wake_on_lan_2.0>
    WebSocket Client <iom/Protocols & Standards/websocket_client_2.2.0>
 .. toctree::
