@@ -293,10 +293,10 @@
      - Integrates with devices via OSC
      - 2.2.0
    * - Protocols & Standards
-     - :doc:`Ping<iom/Protocols & Standards/ping_2.0.0>`
-     - 2.0.0
+     - :doc:`Ping<iom/Protocols & Standards/ping_2.0.1>`
+     - 2.0.1
      - Send an ICMP ping to monitor the online status of a remote peer
-     - 2.4.0
+     - 2.6.0
    * - Protocols & Standards
      - :doc:`Syslog<iom/Protocols & Standards/syslog_2.0>`
      - 2.0.0
@@ -547,6 +547,11 @@
      - 2.1.0.BETA3
      - Maps DMX channel values to Trigger variables, when a change in a DMX value is detected
      - 2.2.0
+   * - BETA
+     - :doc:`LumiNode<iom/BETA/luminode_2.0.0.BETA1>`
+     - 2.0.0.BETA1
+     - Interact with and control Luminex LumiNode
+     - 2.5.0
    * - BETA
      - :doc:`Lutron Athena/Vive (LEAP API)<iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>`
      - 2.2.0.BETA1

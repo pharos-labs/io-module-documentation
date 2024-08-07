@@ -71,7 +71,7 @@
    MQTT Client <iom/Protocols & Standards/mqtt_client_2.2.5>
    Maintained TCP Connection <iom/Protocols & Standards/maintained_tcp_connection_2.1.1>
    OSC <iom/Protocols & Standards/osc_2.1.2>
-   Ping <iom/Protocols & Standards/ping_2.0.0>
+   Ping <iom/Protocols & Standards/ping_2.0.1>
    Syslog <iom/Protocols & Standards/syslog_2.0>
    Telnet Client <iom/Protocols & Standards/telnet_client_2.3.2>
    Wake-on-LAN <iom/Protocols & Standards/wake_on_lan_2.0>
@@ -138,6 +138,7 @@
 
    Controller HTTP API Over... <iom/BETA/controller_http_api_over_2.1.0.BETA1>
    DMX Value Mapper <iom/BETA/dmx_value_mapper_2.1.0.BETA3>
+   LumiNode <iom/BETA/luminode_2.0.0.BETA1>
    Lutron Athena/Vive (LEAP API) <iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>
    MPD <iom/BETA/mpd_2.0.0.BETA1>
    Modbus <iom/BETA/modbus_2.2.0.BETA2>
