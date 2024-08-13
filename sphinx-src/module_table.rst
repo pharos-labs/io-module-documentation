@@ -548,8 +548,8 @@
      - Maps DMX channel values to Trigger variables, when a change in a DMX value is detected
      - 2.2.0
    * - BETA
-     - :doc:`LumiNode<iom/BETA/luminode_2.0.0.BETA1>`
-     - 2.0.0.BETA1
+     - :doc:`LumiNode<iom/BETA/luminode_2.0.0.BETA2>`
+     - 2.0.0.BETA2
      - Interact with and control Luminex LumiNode
      - 2.5.0
    * - BETA
@@ -563,12 +563,17 @@
      - Interact and control an MPD server
      - 2.3.0
    * - BETA
-     - :doc:`Modbus<iom/BETA/modbus_2.2.0.BETA2>`
-     - 2.2.0.BETA2
+     - :doc:`Modbus<iom/BETA/modbus_2.2.0.BETA3>`
+     - 2.2.0.BETA3
      - Integrate with Modbus serial and/or ethernet systems as client and/or server
      - 2.5.0
    * - BETA
      - :doc:`RDM Discovery<iom/BETA/rdm_2.0.1.BETA3>`
      - 2.0.1.BETA3
      - Discovers RDM fixtures and notifies of changes
+     - 2.3.0
+   * - BETA
+     - :doc:`Server Technology PDU<iom/BETA/server_technology_pdu_2.0.0.BETA1>`
+     - 2.0.0.BETA1
+     - Control and monitor Server Technology PDUs
      - 2.3.0
