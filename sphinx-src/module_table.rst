@@ -568,6 +568,11 @@
      - Integrate with Modbus serial and/or ethernet systems as client and/or server
      - 2.5.0
    * - BETA
+     - :doc:`Nexmosphere<iom/BETA/nexmosphere_2.0.0.BETA1>`
+     - 2.0.0.BETA1
+     - Interact with Nexmosphere elements via a Nexmosphere Xperience controller
+     - 2.5.0
+   * - BETA
      - :doc:`RDM Discovery<iom/BETA/rdm_2.0.1.BETA3>`
      - 2.0.1.BETA3
      - Discovers RDM fixtures and notifies of changes
