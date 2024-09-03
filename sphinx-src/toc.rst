@@ -81,8 +81,8 @@
    :hidden:
 
    Casambi Lithernet Gateway <iom/System Integration/casambi_lithernet_gateway_2.0.0>
-   Dynalite DyNet (IP) <iom/System Integration/dynalite_dynet_ip_2.5.0>
-   Dynalite DyNet (Serial) <iom/System Integration/dynalite_dynet_serial_2.5.0>
+   Dynalite DyNet (IP) <iom/System Integration/dynalite_dynet_ip_2.5.1>
+   Dynalite DyNet (Serial) <iom/System Integration/dynalite_dynet_serial_2.5.1>
    Enocean Rocker Switch Via Deuta Enodisc <iom/System Integration/enocean_rocket_switch_via_deuta_enodisc_2.0>
    Enocean Via Deuta Enodisc <iom/System Integration/enocean_via_deuta_enodisc_2.0>
    HelvarNet <iom/System Integration/helvarnet_2.0>
@@ -141,7 +141,7 @@
    LumiNode <iom/BETA/luminode_2.0.0.BETA2>
    Lutron Athena/Vive (LEAP API) <iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>
    MPD <iom/BETA/mpd_2.0.0.BETA1>
-   Modbus <iom/BETA/modbus_2.2.0.BETA3>
-   Nexmosphere <iom/BETA/nexmosphere_2.0.0.BETA1>
+   Modbus <iom/BETA/modbus_2.2.0.BETA4>
+   Nexmosphere <iom/BETA/nexmosphere_2.0.0.BETA2>
    RDM Discovery <iom/BETA/rdm_2.0.1.BETA3>
    Server Technology PDU <iom/BETA/server_technology_pdu_2.0.0.BETA1>

@@ -323,13 +323,13 @@
      - Sends commands to and receives data from Lithernet Casambi Gateway
      - 2.2.1
    * - System Integration
-     - :doc:`Dynalite DyNet (IP)<iom/System Integration/dynalite_dynet_ip_2.5.0>`
-     - 2.5.0
+     - :doc:`Dynalite DyNet (IP)<iom/System Integration/dynalite_dynet_ip_2.5.1>`
+     - 2.5.1
      - Integrates with Philips Dynalite using DyNet v1/v2 messages with a PDEG (Philips Dynalite Ethernet Gateway)
      - 2.4.0
    * - System Integration
-     - :doc:`Dynalite DyNet (Serial)<iom/System Integration/dynalite_dynet_serial_2.5.0>`
-     - 2.5.0
+     - :doc:`Dynalite DyNet (Serial)<iom/System Integration/dynalite_dynet_serial_2.5.1>`
+     - 2.5.1
      - Integrates with Philips Dynalite using DyNet v1 messages on the serial DyNet connection
      - 2.2.0
    * - System Integration
@@ -563,13 +563,13 @@
      - Interact and control an MPD server
      - 2.3.0
    * - BETA
-     - :doc:`Modbus<iom/BETA/modbus_2.2.0.BETA3>`
-     - 2.2.0.BETA3
+     - :doc:`Modbus<iom/BETA/modbus_2.2.0.BETA4>`
+     - 2.2.0.BETA4
      - Integrate with Modbus serial and/or ethernet systems as client and/or server
      - 2.5.0
    * - BETA
-     - :doc:`Nexmosphere<iom/BETA/nexmosphere_2.0.0.BETA1>`
-     - 2.0.0.BETA1
+     - :doc:`Nexmosphere<iom/BETA/nexmosphere_2.0.0.BETA2>`
+     - 2.0.0.BETA2
      - Interact with Nexmosphere elements via a Nexmosphere Xperience controller
      - 2.5.0
    * - BETA
