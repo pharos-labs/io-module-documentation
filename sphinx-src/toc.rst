@@ -70,7 +70,7 @@
    KNXnet/IP <iom/Protocols & Standards/knxnetip_2.4>
    MQTT Client <iom/Protocols & Standards/mqtt_client_2.2.5>
    Maintained TCP Connection <iom/Protocols & Standards/maintained_tcp_connection_2.1.1>
-   OSC <iom/Protocols & Standards/osc_2.1.2>
+   OSC <iom/Protocols & Standards/osc_2.2.1>
    Ping <iom/Protocols & Standards/ping_2.0.1>
    Syslog <iom/Protocols & Standards/syslog_2.0>
    Telnet Client <iom/Protocols & Standards/telnet_client_2.3.2>

@@ -288,8 +288,8 @@
      - Maintains and monitors a TCP connection with a remote host
      - 2.2.0
    * - Protocols & Standards
-     - :doc:`OSC<iom/Protocols & Standards/osc_2.1.2>`
-     - 2.1.2
+     - :doc:`OSC<iom/Protocols & Standards/osc_2.2.1>`
+     - 2.2.1
      - Integrates with devices via OSC
      - 2.2.0
    * - Protocols & Standards
