@@ -33,8 +33,6 @@
    Controller HTTP API Client Commands <iom/Device Utilities/controller_http_api_client_commands_2.1>
    Controller HTTP API Client Queries <iom/Device Utilities/controller_http_api_client_queries_2.1>
    Digital Input Double Click <iom/Device Utilities/digital_input_double_click_2.1>
-   Network Status Project Controller <iom/Device Utilities/network_status_project_controller_2.0.1>
-   Network Status Project Touch Device <iom/Device Utilities/network_status_project_touch_device_2.0>
    Park and Unpark Channels <iom/Device Utilities/park_and_unpark_channels_2.0.1>
    Pulse Digital Output <iom/Device Utilities/pulse_digital_output_2.1>
    Restore <iom/Device Utilities/restore_2.0.0>

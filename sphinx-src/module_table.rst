@@ -143,16 +143,6 @@
      - Detects a double click on Digital Inputs / Contact Closures
      - 2.2.0
    * - Device Utilities
-     - :doc:`Network Status Project Controller<iom/Device Utilities/network_status_project_controller_2.0.1>`
-     - 2.0.1
-     - Checks if a project Controller is online
-     - 2.2.0
-   * - Device Utilities
-     - :doc:`Network Status Project Touch Device<iom/Device Utilities/network_status_project_touch_device_2.0>`
-     - 2.0.0
-     - Checks if a project touch device is online
-     - 2.2.0
-   * - Device Utilities
      - :doc:`Park and Unpark Channels<iom/Device Utilities/park_and_unpark_channels_2.0.1>`
      - 2.0.1
      - Parks and unparks output channels
