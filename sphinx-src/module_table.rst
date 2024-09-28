@@ -338,8 +338,8 @@
      - Controls and queries devices on a HelvarNet network via Helvar routers
      - 2.2.0
    * - System Integration
-     - :doc:`ISAAC<iom/System Integration/isaac_2.1.1>`
-     - 2.1.1
+     - :doc:`ISAAC<iom/System Integration/isaac_2.1.2>`
+     - 2.1.2
      - Integrates with Smart Monkey's ISAAC platform
      - 2.2.1
    * - System Integration

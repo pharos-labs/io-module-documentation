@@ -84,7 +84,7 @@
    Enocean Rocker Switch Via Deuta Enodisc <iom/System Integration/enocean_rocket_switch_via_deuta_enodisc_2.0>
    Enocean Via Deuta Enodisc <iom/System Integration/enocean_via_deuta_enodisc_2.0>
    HelvarNet <iom/System Integration/helvarnet_2.0>
-   ISAAC <iom/System Integration/isaac_2.1.1>
+   ISAAC <iom/System Integration/isaac_2.1.2>
    Lutron Athena/Vive (LEAP API) <iom/System Integration/lutron_athenavive_leap_api_2.1>
    Lutron Quantum (Serial/Telnet) <iom/System Integration/lutron_quantum_serialtelnet_2.0.0>
    Philips Hue <iom/System Integration/philips_hue_2.2>
