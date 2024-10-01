@@ -143,3 +143,4 @@
    Nexmosphere <iom/BETA/nexmosphere_2.0.0.BETA2>
    RDM Discovery <iom/BETA/rdm_2.0.1.BETA3>
    Server Technology PDU <iom/BETA/server_technology_pdu_2.0.0.BETA1>
+   Test IO Module <iom/BETA/test_io_module_1.0.BETA1.iom>

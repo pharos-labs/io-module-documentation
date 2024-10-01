@@ -572,3 +572,8 @@
      - 2.0.0.BETA1
      - Control and monitor Server Technology PDUs
      - 2.3.0
+   * - BETA
+     - :doc:`Test IO Module<iom/BETA/test_io_module_1.0.BETA1.iom>`
+     - 1.0.BETA1
+     - Module for testing the new upload process
+     - 2.6.0
