@@ -134,13 +134,13 @@
    :caption: BETA
    :hidden:
 
+   Colour tools <iom/BETA/colour_tools_2.1.0.BETA1>
    Controller HTTP API Over... <iom/BETA/controller_http_api_over_2.1.0.BETA1>
    DMX Value Mapper <iom/BETA/dmx_value_mapper_2.1.0.BETA3>
    LumiNode <iom/BETA/luminode_2.0.0.BETA2>
    Lutron Athena/Vive (LEAP API) <iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>
    MPD <iom/BETA/mpd_2.0.0.BETA1>
-   Modbus <iom/BETA/modbus_2.2.0.BETA4>
+   Modbus <iom/BETA/modbus_2.2.0.BETA6>
    Nexmosphere <iom/BETA/nexmosphere_2.0.0.BETA2>
    RDM Discovery <iom/BETA/rdm_2.0.1.BETA3>
    Server Technology PDU <iom/BETA/server_technology_pdu_2.0.0.BETA1>
-   Test IO Module <iom/BETA/test_io_module_1.0.BETA1.iom>

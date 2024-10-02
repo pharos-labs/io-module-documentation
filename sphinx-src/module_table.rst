@@ -528,6 +528,11 @@
      - Receives high and low tide information for a specified location in UK
      - 2.2.0
    * - BETA
+     - :doc:`Colour tools<iom/BETA/colour_tools_2.1.0.BETA1>`
+     - 2.1.0.BETA1
+     - Colour helper tools, used to convert between colour spaces
+     - 2.6.0
+   * - BETA
      - :doc:`Controller HTTP API Over...<iom/BETA/controller_http_api_over_2.1.0.BETA1>`
      - 2.1.0.BETA1
      - Accesses the HTTP API using other transports
@@ -553,10 +558,10 @@
      - Interact and control an MPD server
      - 2.3.0
    * - BETA
-     - :doc:`Modbus<iom/BETA/modbus_2.2.0.BETA4>`
-     - 2.2.0.BETA4
+     - :doc:`Modbus<iom/BETA/modbus_2.2.0.BETA6>`
+     - 2.2.0.BETA6
      - Integrate with Modbus serial and/or ethernet systems as client and/or server
-     - 2.5.0
+     - 2.6.0
    * - BETA
      - :doc:`Nexmosphere<iom/BETA/nexmosphere_2.0.0.BETA2>`
      - 2.0.0.BETA2
@@ -572,8 +577,3 @@
      - 2.0.0.BETA1
      - Control and monitor Server Technology PDUs
      - 2.3.0
-   * - BETA
-     - :doc:`Test IO Module<iom/BETA/test_io_module_1.0.BETA1.iom>`
-     - 1.0.BETA1
-     - Module for testing the new upload process
-     - 2.6.0
