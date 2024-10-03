@@ -243,8 +243,8 @@
      - Enables a controller to act as a watchdog that will fire a trigger if a tickle action is not received within a user-specified time window
      - 2.2.0
    * - Protocols & Standards
-     - :doc:`BACnet Server<iom/Protocols & Standards/bacnet_server_2.3.0>`
-     - 2.3.0
+     - :doc:`BACnet Server<iom/Protocols & Standards/bacnet_server_2.3.1>`
+     - 2.3.1
      - Integrates with a BACnet system by behaving as a BACnet server, to be discovered and controlled by BACnet devices
      - 2.4.0
    * - Protocols & Standards

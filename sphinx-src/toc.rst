@@ -61,7 +61,7 @@
    :caption: Protocols & Standards
    :hidden:
 
-   BACnet Server <iom/Protocols & Standards/bacnet_server_2.3.0>
+   BACnet Server <iom/Protocols & Standards/bacnet_server_2.3.1>
    C-Bus (Serial) <iom/Protocols & Standards/c_bus_serial_2.0>
    HTTP Poll <iom/Protocols & Standards/http_poll_2.2>
    HTTP Request <iom/Protocols & Standards/http_request_2.3.3>
