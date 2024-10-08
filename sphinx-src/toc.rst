@@ -65,7 +65,7 @@
    C-Bus (Serial) <iom/Protocols & Standards/c_bus_serial_2.0>
    HTTP Poll <iom/Protocols & Standards/http_poll_2.2>
    HTTP Request <iom/Protocols & Standards/http_request_2.3.3>
-   KNXnet/IP <iom/Protocols & Standards/knxnetip_2.4>
+   KNXnet/IP <iom/Protocols & Standards/knxnetip_2.5.0>
    MQTT Client <iom/Protocols & Standards/mqtt_client_2.2.5>
    Maintained TCP Connection <iom/Protocols & Standards/maintained_tcp_connection_2.1.1>
    OSC <iom/Protocols & Standards/osc_2.2.1>
@@ -137,7 +137,7 @@
    Colour tools <iom/BETA/colour_tools_2.1.0.BETA1>
    Controller HTTP API Over... <iom/BETA/controller_http_api_over_2.1.0.BETA1>
    DMX Value Mapper <iom/BETA/dmx_value_mapper_2.1.0.BETA3>
-   LumiNode <iom/BETA/luminode_2.0.0.BETA2>
+   LumiNode <iom/BETA/luminode_2.0.0.BETA3>
    Lutron Athena/Vive (LEAP API) <iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>
    MPD <iom/BETA/mpd_2.0.0.BETA1>
    Modbus <iom/BETA/modbus_2.2.0.BETA6>

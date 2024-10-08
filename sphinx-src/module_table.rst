@@ -263,8 +263,8 @@
      - Sends a HTTP/HTTPS requests and processes its response
      - 2.2.1
    * - Protocols & Standards
-     - :doc:`KNXnet/IP<iom/Protocols & Standards/knxnetip_2.4>`
-     - 2.4.0
+     - :doc:`KNXnet/IP<iom/Protocols & Standards/knxnetip_2.5.0>`
+     - 2.5.0
      - Integrates with a KNXnet/IP Router
      - 2.2.0
    * - Protocols & Standards
@@ -543,10 +543,10 @@
      - Maps DMX channel values to Trigger variables, when a change in a DMX value is detected
      - 2.2.0
    * - BETA
-     - :doc:`LumiNode<iom/BETA/luminode_2.0.0.BETA2>`
-     - 2.0.0.BETA2
+     - :doc:`LumiNode<iom/BETA/luminode_2.0.0.BETA3>`
+     - 2.0.0.BETA3
      - Interact with and control Luminex LumiNode
-     - 2.5.0
+     - 2.6.0
    * - BETA
      - :doc:`Lutron Athena/Vive (LEAP API)<iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>`
      - 2.2.0.BETA1
