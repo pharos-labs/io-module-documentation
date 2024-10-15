@@ -2,145 +2,145 @@
    :caption: Device Integration
    :hidden:
 
-   AV Stumpfl UHD Player <iom/Device Integration/av_strumpfl_udh_player_udp_2.0>
-   Advatek PixLite MK3 <iom/Device Integration/advatek_pixlite_mk3_2.0>
-   Brompton Tessera Status <iom/Device Integration/brompton_tessera_status_2.0>
-   Color Kinetics Data Enabler Pro Power Relay <iom/Device Integration/color_kinetics_data_enabler_pro_power_relay_2.0>
-   Color Kinetics Ethernet Keypad <iom/Device Integration/color_kinetics_ethernet_keypad_2.1.1>
-   Color Kinetics KiNET Power/Data Supply Status <iom/Device Integration/color_kinetics_kinet_power_data_supply_status_2.2>
-   Color Kinetics Luminous Textile <iom/Device Integration/color_kinetics_luminous_textiles_2.0.1>
-   DiGidot <iom/Device Integration/digidot_2.0>
-   ETC Response SnapBack <iom/Device Integration/etc_response_snapback_2.0.0>
-   Expert <iom/Device Integration/expert_2.0.0>
-   Genelec Smart IP <iom/Device Integration/genelec_smart_ip_2.0.0>
-   KissBox IO CardCages <iom/Device Integration/kissbox_io_cardcages_2.1.2>
-   Level Developments LCH-360 <iom/Device Integration/level_developments_lch_360_2.0.1>
-   Madrix 5 <iom/Device Integration/madrix_5_2.0.0>
-   Madrix Aura <iom/Device Integration/madrix_aura_2.0>
-   PJLink <iom/Device Integration/pjlink_2.0.0>
-   Papouch TM RS232 Thermometer <iom/Device Integration/papouch_tm_rs232_thermometer_2.1>
-   Pathway Pathport Status <iom/Device Integration/pathway_pathport_status_2.1.3>
-   Pragma Innovations ARVIGOmoto <iom/Device Integration/pragma_innovations_arvigomoto_2.1>
-   Raritan PX IP PDU Outlet Control <iom/Device Integration/raritan_px_ip_pdu_outlet_controler_2.0>
-   Thermokon Li65+ Lux-Temperature RS485 Sensor <iom/Device Integration/thermokon_li65_lux_temperature_rs485_sensor_2.1>
-   VideoLan VLC Player Client (HTTP) <iom/Device Integration/videolan_vlc_player_client_http_2.0>
+   AV Stumpfl UHD Player <iom/Device Integration/AV Stumpfl UHD Player>
+   Advatek PixLite MK3 <iom/Device Integration/Advatek PixLite MK3>
+   Brompton Tessera Status <iom/Device Integration/Brompton Tessera Status>
+   Color Kinetics Data Enabler Pro Power Relay <iom/Device Integration/Color Kinetics Data Enabler Pro Power Relay>
+   Color Kinetics Ethernet Keypad <iom/Device Integration/Color Kinetics Ethernet Keypad>
+   Color Kinetics KiNET Power/Data Supply Status <iom/Device Integration/Color Kinetics KiNET Power Data Supply Status>
+   Color Kinetics Luminous Textile <iom/Device Integration/Color Kinetics Luminous Textile>
+   DiGidot <iom/Device Integration/DiGidot>
+   ETC Response SnapBack <iom/Device Integration/ETC Response SnapBack>
+   Expert <iom/Device Integration/Expert>
+   Genelec Smart IP <iom/Device Integration/Genelec Smart IP>
+   KissBox IO CardCages <iom/Device Integration/KissBox IO CardCages>
+   Level Developments LCH-360 <iom/Device Integration/Level Developments LCH-360>
+   Madrix 5 <iom/Device Integration/Madrix 5>
+   Madrix Aura <iom/Device Integration/Madrix Aura>
+   PJLink <iom/Device Integration/PJLink>
+   Papouch TM RS232 Thermometer <iom/Device Integration/Papouch TM RS232 Thermometer>
+   Pathway Pathport Status <iom/Device Integration/Pathway Pathport Status>
+   Pragma Innovations ARVIGOmoto <iom/Device Integration/Pragma Innovations ARVIGOmoto>
+   Raritan PX IP PDU Outlet Control <iom/Device Integration/Raritan PX IP PDU Outlet Control>
+   Thermokon Li65+ Lux-Temperature RS485 Sensor <iom/Device Integration/Thermokon Li65+ Lux-Temperature RS485 Sensor>
+   VideoLan VLC Player Client (HTTP) <iom/Device Integration/VideoLan VLC Player Client (HTTP)>
 .. toctree::
    :caption: Device Utilities
    :hidden:
 
-   Controller Analog Input Status <iom/Device Utilities/controller_analog_input_status_2.0>
-   Controller Digital Input Status <iom/Device Utilities/controller_digital_input_status_2.0>
-   Controller HTTP API Client Commands <iom/Device Utilities/controller_http_api_client_commands_2.1>
-   Controller HTTP API Client Queries <iom/Device Utilities/controller_http_api_client_queries_2.1>
-   Digital Input Double Click <iom/Device Utilities/digital_input_double_click_2.1>
-   Park and Unpark Channels <iom/Device Utilities/park_and_unpark_channels_2.0.1>
-   Pulse Digital Output <iom/Device Utilities/pulse_digital_output_2.1>
-   Restore <iom/Device Utilities/restore_2.0.0>
-   Touch Button Timeline Labels <iom/Device Utilities/touch_button_timeline_labels_2.1.0>
+   Controller Analog Input Status <iom/Device Utilities/Controller Analog Input Status>
+   Controller Digital Input Status <iom/Device Utilities/Controller Digital Input Status>
+   Controller HTTP API Client Commands <iom/Device Utilities/Controller HTTP API Client Commands>
+   Controller HTTP API Client Queries <iom/Device Utilities/Controller HTTP API Client Queries>
+   Digital Input Double Click <iom/Device Utilities/Digital Input Double Click>
+   Park and Unpark Channels <iom/Device Utilities/Park and Unpark Channels>
+   Pulse Digital Output <iom/Device Utilities/Pulse Digital Output>
+   Restore <iom/Device Utilities/Restore>
+   Touch Button Timeline Labels <iom/Device Utilities/Touch Button Timeline Labels>
 .. toctree::
    :caption: Productivity
    :hidden:
 
-   Clear Log <iom/Productivity/clear_log_2.0>
-   Counter <iom/Productivity/counter_2.1>
-   Cue Stack <iom/Productivity/cue_stack_2.1.1>
-   Daylight Savings <iom/Productivity/daylight_savings_2.0>
-   Delayed Startup <iom/Productivity/delayed_startup_2.1>
-   Holidays and events <iom/Productivity/holidays_and_events_2.0.0>
-   Management Mode <iom/Productivity/management_mode_2.2.1>
-   Network Connection Status <iom/Productivity/network_connection_status_2.0.1>
-   Nth Weekday <iom/Productivity/nth_weekday_2.0>
-   Repeat <iom/Productivity/repeat_2.2.1>
-   Seasons <iom/Productivity/seasons_2.1>
-   Separator <iom/Productivity/separator_2.0>
-   Stopwatch <iom/Productivity/stopwatch_2.1>
-   Trigger Lockout <iom/Productivity/trigger_lockout_2.0>
-   Wait <iom/Productivity/wait_2.4.0>
-   Watchdog <iom/Productivity/watchdog_2.2.1>
+   Clear Log <iom/Productivity/Clear Log>
+   Counter <iom/Productivity/Counter>
+   Cue Stack <iom/Productivity/Cue Stack>
+   Daylight Savings <iom/Productivity/Daylight Savings>
+   Delayed Startup <iom/Productivity/Delayed Startup>
+   Holidays and events <iom/Productivity/Holidays and events>
+   Management Mode <iom/Productivity/Management Mode>
+   Network Connection Status <iom/Productivity/Network Connection Status>
+   Nth Weekday <iom/Productivity/Nth Weekday>
+   Repeat <iom/Productivity/Repeat>
+   Seasons <iom/Productivity/Seasons>
+   Separator <iom/Productivity/Separator>
+   Stopwatch <iom/Productivity/Stopwatch>
+   Trigger Lockout <iom/Productivity/Trigger Lockout>
+   Wait <iom/Productivity/Wait>
+   Watchdog <iom/Productivity/Watchdog>
 .. toctree::
    :caption: Protocols & Standards
    :hidden:
 
-   BACnet Server <iom/Protocols & Standards/bacnet_server_2.3.1>
-   C-Bus (Serial) <iom/Protocols & Standards/c_bus_serial_2.0>
-   HTTP Poll <iom/Protocols & Standards/http_poll_2.2>
-   HTTP Request <iom/Protocols & Standards/http_request_2.3.3>
-   KNXnet/IP <iom/Protocols & Standards/knxnetip_2.5.0>
-   MQTT Client <iom/Protocols & Standards/mqtt_client_2.2.5>
-   Maintained TCP Connection <iom/Protocols & Standards/maintained_tcp_connection_2.1.1>
-   OSC <iom/Protocols & Standards/osc_2.2.1>
-   Ping <iom/Protocols & Standards/ping_2.0.1>
-   Syslog <iom/Protocols & Standards/syslog_2.0>
-   Telnet Client <iom/Protocols & Standards/telnet_client_2.3.2>
-   Wake-on-LAN <iom/Protocols & Standards/wake_on_lan_2.0>
-   WebSocket Client <iom/Protocols & Standards/websocket_client_2.2.0>
+   BACnet Server <iom/Protocols & Standards/BACnet Server>
+   C-Bus (Serial) <iom/Protocols & Standards/C-Bus (Serial)>
+   HTTP Poll <iom/Protocols & Standards/HTTP Poll>
+   HTTP Request <iom/Protocols & Standards/HTTP Request>
+   KNXnet/IP <iom/Protocols & Standards/KNXnet IP>
+   MQTT Client <iom/Protocols & Standards/MQTT Client>
+   Maintained TCP Connection <iom/Protocols & Standards/Maintained TCP Connection>
+   OSC <iom/Protocols & Standards/OSC>
+   Ping <iom/Protocols & Standards/Ping>
+   Syslog <iom/Protocols & Standards/Syslog>
+   Telnet Client <iom/Protocols & Standards/Telnet Client>
+   Wake-on-LAN <iom/Protocols & Standards/Wake-on-LAN>
+   WebSocket Client <iom/Protocols & Standards/WebSocket Client>
 .. toctree::
    :caption: System Integration
    :hidden:
 
-   Casambi Lithernet Gateway <iom/System Integration/casambi_lithernet_gateway_2.0.0>
-   Dynalite DyNet (IP) <iom/System Integration/dynalite_dynet_ip_2.5.1>
-   Dynalite DyNet (Serial) <iom/System Integration/dynalite_dynet_serial_2.5.1>
-   Enocean Rocker Switch Via Deuta Enodisc <iom/System Integration/enocean_rocket_switch_via_deuta_enodisc_2.0>
-   Enocean Via Deuta Enodisc <iom/System Integration/enocean_via_deuta_enodisc_2.0>
-   HelvarNet <iom/System Integration/helvarnet_2.0>
-   ISAAC <iom/System Integration/isaac_2.1.2>
-   Lutron Athena/Vive (LEAP API) <iom/System Integration/lutron_athenavive_leap_api_2.1>
-   Lutron Quantum (Serial/Telnet) <iom/System Integration/lutron_quantum_serialtelnet_2.0.0>
-   Philips Hue <iom/System Integration/philips_hue_2.2>
-   Sorama Smart Stadium <iom/System Integration/sorama_smart_stadium_2.0.0>
-   Xicato <iom/System Integration/xicato_2.6.0>
-   deCONZ <iom/System Integration/deconz_2.0.0>
+   Casambi Lithernet Gateway <iom/System Integration/Casambi Lithernet Gateway>
+   Dynalite DyNet (IP) <iom/System Integration/Dynalite DyNet (IP)>
+   Dynalite DyNet (Serial) <iom/System Integration/Dynalite DyNet (Serial)>
+   Enocean Rocker Switch Via Deuta Enodisc <iom/System Integration/Enocean Rocker Switch Via Deuta Enodisc>
+   Enocean Via Deuta Enodisc <iom/System Integration/Enocean Via Deuta Enodisc>
+   HelvarNet <iom/System Integration/HelvarNet>
+   ISAAC <iom/System Integration/ISAAC>
+   Lutron Athena/Vive (LEAP API) <iom/System Integration/Lutron Athena Vive (LEAP API)>
+   Lutron Quantum (Serial/Telnet) <iom/System Integration/Lutron Quantum (Serial Telnet)>
+   Philips Hue <iom/System Integration/Philips Hue>
+   Sorama Smart Stadium <iom/System Integration/Sorama Smart Stadium>
+   Xicato <iom/System Integration/Xicato>
+   deCONZ <iom/System Integration/deCONZ>
 .. toctree::
    :caption: Trigger Utilities
    :hidden:
 
-   Append Trigger Variable <iom/Trigger Utilities/append_trigger_variable_2.1.1>
-   Check Integer in Range <iom/Trigger Utilities/check_integer_in_range_2.0>
-   Check Scene in Group <iom/Trigger Utilities/check_scene_in_group_2.0>
-   Check Timeline in Group <iom/Trigger Utilities/check_timeline_in_group_2.0>
-   Colour tools <iom/Trigger Utilities/colour_tools_2.0.0>
-   DMX Value Mapper <iom/Trigger Utilities/dmx_value_mapper_2.0.1>
-   Lookup name <iom/Trigger Utilities/lookup_name_2.0>
-   Modify Trigger Variables <iom/Trigger Utilities/modify_trigger_variables_2.1.1>
-   Pad Trigger Variables <iom/Trigger Utilities/pad_trigger_variable_2.0>
-   Ramp Timeline Rate <iom/Trigger Utilities/ramp_timeline_rate_2.1>
-   Random Interval <iom/Trigger Utilities/random_interval_2.0>
-   Random Trigger <iom/Trigger Utilities/random_trigger_2.3>
-   Release Selected Scenes <iom/Trigger Utilities/release_selected_scenes_2.0.1>
-   Release Selected Timelines <iom/Trigger Utilities/release_selected_timelines_2.1>
-   Set HSI <iom/Trigger Utilities/set_hsi_2.0.3>
-   Set Status Variable <iom/Trigger Utilities/set_status_variable_2.1>
-   Set and Get Variables <iom/Trigger Utilities/set_and_get_variables_2.1.1>
-   Start Multiple Scenes <iom/Trigger Utilities/start_multiple_scenes_2.0.1>
-   Start Multiple Timelines <iom/Trigger Utilities/start_multiple_timelines_2.0.1>
-   Start Random Scene <iom/Trigger Utilities/start_random_scene_2.0.1>
-   Start Random Timeline <iom/Trigger Utilities/start_random_timeline_2.0.1>
-   Start Random Timeline or Scene <iom/Trigger Utilities/start_random_timeline_or_scene_2.0>
+   Append Trigger Variable <iom/Trigger Utilities/Append Trigger Variable>
+   Check Integer in Range <iom/Trigger Utilities/Check Integer in Range>
+   Check Scene in Group <iom/Trigger Utilities/Check Scene in Group>
+   Check Timeline in Group <iom/Trigger Utilities/Check Timeline in Group>
+   Colour tools <iom/Trigger Utilities/Colour tools>
+   DMX Value Mapper <iom/Trigger Utilities/DMX Value Mapper>
+   Lookup name <iom/Trigger Utilities/Lookup name>
+   Modify Trigger Variables <iom/Trigger Utilities/Modify Trigger Variables>
+   Pad Trigger Variables <iom/Trigger Utilities/Pad Trigger Variables>
+   Ramp Timeline Rate <iom/Trigger Utilities/Ramp Timeline Rate>
+   Random Interval <iom/Trigger Utilities/Random Interval>
+   Random Trigger <iom/Trigger Utilities/Random Trigger>
+   Release Selected Scenes <iom/Trigger Utilities/Release Selected Scenes>
+   Release Selected Timelines <iom/Trigger Utilities/Release Selected Timelines>
+   Set HSI <iom/Trigger Utilities/Set HSI>
+   Set Status Variable <iom/Trigger Utilities/Set Status Variable>
+   Set and Get Variables <iom/Trigger Utilities/Set and Get Variables>
+   Start Multiple Scenes <iom/Trigger Utilities/Start Multiple Scenes>
+   Start Multiple Timelines <iom/Trigger Utilities/Start Multiple Timelines>
+   Start Random Scene <iom/Trigger Utilities/Start Random Scene>
+   Start Random Timeline <iom/Trigger Utilities/Start Random Timeline>
+   Start Random Timeline or Scene <iom/Trigger Utilities/Start Random Timeline or Scene>
 .. toctree::
    :caption: Web Services
    :hidden:
 
-   Accuweather <iom/Web Services/accuweather_2.2>
-   Australian Reefs <iom/Web Services/australian_reefs_2.1>
-   Email Notification <iom/Web Services/email_notification_2.2.2>
-   IFTTT <iom/Web Services/ifttt_2.2>
-   Internet Host Connection Status <iom/Web Services/internet_host_connection_status_2.0>
-   Kumux <iom/Web Services/kumux_2.1.0>
-   MET Norway <iom/Web Services/met_norway_2.0.1>
-   Telegram Bot <iom/Web Services/telegram_bot_2.0>
-   UK Tide Times <iom/Web Services/uk_tide_times_2.0.0>
+   Accuweather <iom/Web Services/Accuweather>
+   Australian Reefs <iom/Web Services/Australian Reefs>
+   Email Notification <iom/Web Services/Email Notification>
+   IFTTT <iom/Web Services/IFTTT>
+   Internet Host Connection Status <iom/Web Services/Internet Host Connection Status>
+   Kumux <iom/Web Services/Kumux>
+   MET Norway <iom/Web Services/MET Norway>
+   Telegram Bot <iom/Web Services/Telegram Bot>
+   UK Tide Times <iom/Web Services/UK Tide Times>
 .. toctree::
    :caption: BETA
    :hidden:
 
-   Colour tools <iom/BETA/colour_tools_2.1.0.BETA1>
-   Controller HTTP API Over... <iom/BETA/controller_http_api_over_2.1.0.BETA1>
-   DMX Value Mapper <iom/BETA/dmx_value_mapper_2.1.0.BETA3>
-   LumiNode <iom/BETA/luminode_2.0.0.BETA3>
-   Lutron Athena/Vive (LEAP API) <iom/BETA/lutron_athenavive_leap_api_2.2.BETA1>
-   MPD <iom/BETA/mpd_2.0.0.BETA1>
-   Modbus <iom/BETA/modbus_2.2.0.BETA6>
-   Nexmosphere <iom/BETA/nexmosphere_2.0.0.BETA2>
-   RDM Discovery <iom/BETA/rdm_2.0.1.BETA3>
-   Server Technology PDU <iom/BETA/server_technology_pdu_2.0.0.BETA1>
+   Colour tools <iom/BETA/Colour tools>
+   Controller HTTP API Over... <iom/BETA/Controller HTTP API Over...>
+   DMX Value Mapper <iom/BETA/DMX Value Mapper>
+   LumiNode <iom/BETA/LumiNode>
+   Lutron Athena/Vive (LEAP API) <iom/BETA/Lutron Athena Vive (LEAP API)>
+   MPD <iom/BETA/MPD>
+   Modbus <iom/BETA/Modbus>
+   Nexmosphere <iom/BETA/Nexmosphere>
+   RDM Discovery <iom/BETA/RDM Discovery>
+   Server Technology PDU <iom/BETA/Server Technology PDU>
