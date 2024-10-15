@@ -84,15 +84,19 @@ with tempfile.TemporaryDirectory() as tempDir:
             version = getHighestVersion(module['versions'])
             print(f'Highest version {version['version']}')
 
-            outputFilename = os.path.join(groupDirPath, f'{version['path']}.md')
+            # Sanitized module name for making the path/URL
+            # Some module names contain a forward slash, replace with a space
+            sanitizedModuleName = module['name'].replace("/", " ")
+
+            outputFilename = os.path.join(groupDirPath, f'{sanitizedModuleName}.md')
 
             moduleTable.write(f'   * - {groupName}\n')
-            moduleTable.write(f'     - :doc:`{module['name']}<iom/{groupName}/{version['path']}>`\n')
+            moduleTable.write(f'     - :doc:`{module['name']}<iom/{groupName}/{sanitizedModuleName}>`\n')
             moduleTable.write(f'     - {version['version']}\n')
             moduleTable.write(f'     - {module['description']}\n')
             moduleTable.write(f'     - {version['apiVersion']}\n')
 
-            tocFile.write(f'   {module['name']} <iom/{groupName}/{version['path']}>\n')
+            tocFile.write(f'   {module['name']} <iom/{groupName}/{sanitizedModuleName}>\n')
 
             moduleData = requests.get(BASE_URL + version['path'] + IOM_EXTENSION)
 
