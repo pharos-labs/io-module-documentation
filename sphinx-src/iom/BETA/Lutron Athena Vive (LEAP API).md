@@ -1,4 +1,4 @@
-# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA1
+# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA2
 
 
 <h2>Module Summary</h2>
@@ -13,7 +13,7 @@ Please refer to the <em>Associate</em> action documentation below.</br></p>
 
 
 <h3>Release Notes</h3>
-<h4>Version 2.2 (Beta 1)</h4>
+<h4>Version 2.2 (Beta 2)</h4>
 <ul>
 <li>Clears local cache on Lutron Ethernet bridge project change</li>
 <li>Improved logging</li>
@@ -24,6 +24,11 @@ Please refer to the <em>Associate</em> action documentation below.</br></p>
 <li><i>Button: New</i></li>
 <li><i>Button: Updated</i></li>
 <li><i>Button: Status</i></li>
+</ul>
+</li>
+<li>Added Actions:
+            <ul>
+<li><i>Button: Set state</i></li>
 </ul>
 </li>
 </div>
@@ -567,6 +572,15 @@ The scene must exist in the area</p>
 <ul>
 <li><i>Area</i> Area number.</li>
 <li><i>Scene</i> Scene number.</li>
+</ul>
+</div>
+<div class="athena">
+<h4>Button: Set state <b><i>(Athena only)</i></b></h4>
+<p>Sets a <em>Button</em> pressed event state.</p>
+<p>Properties:</p>
+<ul>
+<li><i>Button</i> Button number.</li>
+<li><i>Event</i> Press/release event.</li>
 </ul>
 </div>
 <h4>Event: Set state</h4>
