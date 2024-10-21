@@ -107,6 +107,15 @@ html_theme_options = {
     'light_logo': 'pharos-logo-light.png',
     'dark_logo': 'pharos-logo-dark.png',
     'footer_icons': html_theme_footer_icons,
+    'announcement': 'These modules are all available for download and use from within <a href="https://www.pharoscontrols.com/designer/">Pharos Designer</a> software',
+    "light_css_variables": {
+        "color-announcement-text": "#FFFFFF",
+        "color-announcement-background": "#0088FF",
+    },
+    "dark_css_variables": {
+        "color-announcement-text": "#FFFFFF",
+        "color-announcement-background": "#0088FF",
+    },
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
