@@ -1,4 +1,4 @@
-# LumiNode - Version 2.0.0.BETA3
+# LumiNode - Version 2.0.0.BETA4
 
 ## Module Summary
 
@@ -18,9 +18,11 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.0 Beta 3
+#### Version 2.0 Beta 4
 
 * Triggers can now match any instance<sup>1</sup>
+* Checkbox "Active" removed from trigger "Updated profile"
+* Adds trigger "Active profile updated"
 
 [1] Updates from previous beta will require recreating the module instance(s).\
 Trigger variables now include hostname as first variable.
@@ -74,7 +76,7 @@ The IO Modules tab of the web interface provides status variables to shows infor
     </tr>
     <tr>
         <td>Active profile</td>
-        <td>Currently active profile id and name</td>
+        <td>Currently active profile id and name, or 'none'</td>
     </tr>
     <tr>
         <td>Name</td>
@@ -103,15 +105,26 @@ Trigger variables:
 * *Variable 1*: Hostname (*string*).
 * *Variable 2*: <code>Online</code> or <code>Offline</code> (*string*).
 
-#### Updated profile
+#### Active profile updated
 
-Fires when the profile matching *Id* updates.\
-Setting *Active* limits the trigger to active profiles only.
+Fires when the profile matching *Name* and *Id* is active.\
+**Note:** When the active profile is modified, the node will return a name of `None`, and an Id of `-1` will be emitted.
 
 Trigger variables:
 
 * *Variable 1*: Hostname (*string*).
-* *Variable 2*: Id (*string*).
+* *Variable 2*: Id (*number*).
+* *Variable 3*: Name (*string*).
+
+#### Updated profile
+
+Fires when the profile matching *Id* updates.\
+e.g. Updated name, and/or active status.
+
+Trigger variables:
+
+* *Variable 1*: Hostname (*string*).
+* *Variable 2*: Id (*number*).
 * *Variable 3*: Name (*string*).
 * *Variable 4*: Active? (*boolean*).
 

@@ -1,4 +1,4 @@
-# Stopwatch - Version 2.1.0
+# Stopwatch - Version 2.1.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
