@@ -1,4 +1,4 @@
-# Start Random Timeline or Scene - Version 2.0.0
+# Start Random Timeline or Scene - Version 2.0.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -34,8 +34,8 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Instance Properties
 
-Define the *Timelines and Scenes* set in comma-dash format, eg. <code>t1-4,8,10</code>, using <code>t</code> for timelines and <code>s</code> before the respective numbers.
-The set can be entered as a continuous range <code>t1-5</code>, discrete entries <code>t1,t2,s10,23</code>, or a combination <code>t1-4,s8,t10</code>.
+Define the *Timelines and Scenes* set in comma-dash format, eg. <code>t1-4,s8,t10</code>, using <code>t</code> for timelines and <code>s</code> before the respective numbers.
+The set can be entered as a continuous range <code>t1-5</code>, discrete entries <code>t1,t2,s10,s23</code>, or a combination <code>t1-4,s8,t10</code>.
 
 If *Force All to Play Once* is enabled, this will ensure that all Timelines and Scenes in the set will played at least once (in a random order) before any Timeline or Scene is repeated.
 

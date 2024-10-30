@@ -479,7 +479,7 @@
      - 2.2.0
    * - Trigger Utilities
      - :doc:`Start Random Timeline or Scene<iom/Trigger Utilities/Start Random Timeline or Scene>`
-     - 2.0.0
+     - 2.0.1
      - Starts a random scene or timeline
      - 2.2.0
    * - Web Services
