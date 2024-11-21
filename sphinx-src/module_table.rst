@@ -544,7 +544,7 @@
      - 2.2.0
    * - BETA
      - :doc:`LumiNode<iom/BETA/LumiNode>`
-     - 2.0.0.BETA4
+     - 2.0.0.BETA5
      - Interact with and control Luminex LumiNode
      - 2.6.0
    * - BETA

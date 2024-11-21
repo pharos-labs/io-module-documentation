@@ -1,4 +1,4 @@
-# LumiNode - Version 2.0.0.BETA4
+# LumiNode - Version 2.0.0.BETA5
 
 ## Module Summary
 
@@ -18,7 +18,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.0 Beta 4
+#### Version 2.0 Beta 5
 
 * Triggers can now match any instance<sup>1</sup>
 * Checkbox "Active" removed from trigger "Updated profile"
