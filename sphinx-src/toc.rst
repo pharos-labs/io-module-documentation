@@ -117,6 +117,7 @@
    Start Random Scene <iom/Trigger Utilities/Start Random Scene>
    Start Random Timeline <iom/Trigger Utilities/Start Random Timeline>
    Start Random Timeline or Scene <iom/Trigger Utilities/Start Random Timeline or Scene>
+   Test IO Module <iom/Trigger Utilities/Test IO Module>
 .. toctree::
    :caption: Web Services
    :hidden:
@@ -139,6 +140,7 @@
    DMX Value Mapper <iom/BETA/DMX Value Mapper>
    LumiNode <iom/BETA/LumiNode>
    Lutron Athena/Vive (LEAP API) <iom/BETA/Lutron Athena Vive (LEAP API)>
+   Lutron Quantum (Serial/Telnet) <iom/BETA/Lutron Quantum (Serial Telnet)>
    MPD <iom/BETA/MPD>
    Modbus <iom/BETA/Modbus>
    Nexmosphere <iom/BETA/Nexmosphere>

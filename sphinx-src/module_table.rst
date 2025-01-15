@@ -482,6 +482,11 @@
      - 2.0.1
      - Starts a random scene or timeline
      - 2.2.0
+   * - Trigger Utilities
+     - :doc:`Test IO Module<iom/Trigger Utilities/Test IO Module>`
+     - 2.0.0
+     - Module for testing the new upload process
+     - 2.6.0
    * - Web Services
      - :doc:`Accuweather<iom/Web Services/Accuweather>`
      - 2.2.0
@@ -552,6 +557,11 @@
      - 2.2.0.BETA2
      - Lutron Extensible Application Protocol (LEAP)
      - 2.4.0
+   * - BETA
+     - :doc:`Lutron Quantum (Serial/Telnet)<iom/BETA/Lutron Quantum (Serial Telnet)>`
+     - 2.1.0.BETA1
+     - Interacts with Lutron system using Lutron integration protocol
+     - 2.6.0
    * - BETA
      - :doc:`MPD<iom/BETA/MPD>`
      - 2.0.0.BETA1
