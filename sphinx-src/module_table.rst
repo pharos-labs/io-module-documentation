@@ -159,7 +159,7 @@
      - 2.4.0
    * - Device Utilities
      - :doc:`Touch Button Timeline Labels<iom/Device Utilities/Touch Button Timeline Labels>`
-     - 2.1.0
+     - 2.1.1
      - Labels Touch Buttons with the timeline name of the same number
      - 2.2.0
    * - Productivity
@@ -574,7 +574,7 @@
      - 2.6.0
    * - BETA
      - :doc:`Nexmosphere<iom/BETA/Nexmosphere>`
-     - 2.0.0.BETA2
+     - 2.0.0.BETA3
      - Interact with Nexmosphere elements via a Nexmosphere Xperience controller
      - 2.5.0
    * - BETA

@@ -1,4 +1,4 @@
-# Nexmosphere - Version 2.0.0.BETA2
+# Nexmosphere - Version 2.0.0.BETA3
 
 ## Module Summary
 

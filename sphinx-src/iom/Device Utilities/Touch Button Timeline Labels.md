@@ -1,4 +1,4 @@
-# Touch Button Timeline Labels - Version 2.1.0
+# Touch Button Timeline Labels - Version 2.1.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -17,7 +17,8 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Module Scope
 
-**Note:** This module will only populate touch button labels on a TPC (touch Controller) and not on a TPS (remote device).
+**Designer 2.14.1 and earlier:** This module will only populate touch button labels on a TPC (touch Controller) and not on a TPS (remote device).\
+**Designer 2.14.2 and later:** This module will populate touch button labels on *all* touch devices.
 
 ### Release Notes
 
