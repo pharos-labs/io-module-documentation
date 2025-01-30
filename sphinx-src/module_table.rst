@@ -579,9 +579,9 @@
      - 2.5.0
    * - BETA
      - :doc:`RDM Discovery<iom/BETA/RDM Discovery>`
-     - 2.0.1.BETA3
+     - 2.0.1.BETA4
      - Discovers RDM fixtures and notifies of changes
-     - 2.3.0
+     - 2.6.0
    * - BETA
      - :doc:`Server Technology PDU<iom/BETA/Server Technology PDU>`
      - 2.0.0.BETA1

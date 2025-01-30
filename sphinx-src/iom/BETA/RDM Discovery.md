@@ -1,4 +1,4 @@
-# RDM Discovery - Version 2.0.1.BETA3
+# RDM Discovery - Version 2.0.1.BETA4
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -31,6 +31,9 @@ Discovers RDM-enabled fixtures and notifies of changes, including newly discover
 If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
 
 ### Release Notes
+
+#### Version 2.0.1.BETA4
+* &nbsp; Added support for Rio G4
 
 #### Version 2.0.1.BETA3
 * &nbsp; Removed "Discovery Finished" Trigger
@@ -86,7 +89,7 @@ Specific universes and ports for supported protocols are specified in the *DMX P
         </td>
     </tr>
     <tr>
-        <td>EDN 10 and EDN 20</td>
+        <td>EDN 10, EDN 20, Rio G4</td>
         <td>EDN number and ports, indexed from 1<br>
         Formatted as: <code>[EDN number]:[port numbers]</code><br>
         eg. <code>1,2:1-10</code> will be EDNs 1 and 2 and ports 1-10 on both EDNs.
