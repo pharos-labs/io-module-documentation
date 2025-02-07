@@ -278,6 +278,11 @@
      - Maintains and monitors a TCP connection with a remote host
      - 2.2.0
    * - Protocols & Standards
+     - :doc:`Modbus<iom/Protocols & Standards/Modbus>`
+     - 2.2.0
+     - Integrate with Modbus serial and/or ethernet systems as client and/or server
+     - 2.6.0
+   * - Protocols & Standards
      - :doc:`OSC<iom/Protocols & Standards/OSC>`
      - 2.2.1
      - Integrates with devices via OSC
@@ -572,11 +577,6 @@
      - 2.0.0.BETA1
      - Interact and control an MPD server
      - 2.3.0
-   * - BETA
-     - :doc:`Modbus<iom/BETA/Modbus>`
-     - 2.2.0.BETA6
-     - Integrate with Modbus serial and/or ethernet systems as client and/or server
-     - 2.6.0
    * - BETA
      - :doc:`Nexmosphere<iom/BETA/Nexmosphere>`
      - 2.0.0.BETA3

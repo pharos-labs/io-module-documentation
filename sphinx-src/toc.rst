@@ -68,6 +68,7 @@
    KNXnet/IP <iom/Protocols & Standards/KNXnet IP>
    MQTT Client <iom/Protocols & Standards/MQTT Client>
    Maintained TCP Connection <iom/Protocols & Standards/Maintained TCP Connection>
+   Modbus <iom/Protocols & Standards/Modbus>
    OSC <iom/Protocols & Standards/OSC>
    Ping <iom/Protocols & Standards/Ping>
    Syslog <iom/Protocols & Standards/Syslog>
@@ -143,7 +144,6 @@
    Lutron Athena/Vive (LEAP API) <iom/BETA/Lutron Athena Vive (LEAP API)>
    Lutron Quantum (Serial/Telnet) <iom/BETA/Lutron Quantum (Serial Telnet)>
    MPD <iom/BETA/MPD>
-   Modbus <iom/BETA/Modbus>
    Nexmosphere <iom/BETA/Nexmosphere>
    RDM Discovery <iom/BETA/RDM Discovery>
    Server Technology PDU <iom/BETA/Server Technology PDU>
