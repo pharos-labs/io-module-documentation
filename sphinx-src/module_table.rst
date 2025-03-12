@@ -534,7 +534,7 @@
      - 2.3.0
    * - Web Services
      - :doc:`UK Tide Times<iom/Web Services/UK Tide Times>`
-     - 2.0.0
+     - 2.0.1
      - Receives high and low tide information for a specified location in UK
      - 2.2.0
    * - BETA
