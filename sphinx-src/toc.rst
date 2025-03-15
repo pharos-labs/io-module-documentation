@@ -24,6 +24,7 @@
    Raritan PX IP PDU Outlet Control <iom/Device Integration/Raritan PX IP PDU Outlet Control>
    Thermokon Li65+ Lux-Temperature RS485 Sensor <iom/Device Integration/Thermokon Li65+ Lux-Temperature RS485 Sensor>
    VideoLan VLC Player Client (HTTP) <iom/Device Integration/VideoLan VLC Player Client (HTTP)>
+   WEAD ATR <iom/Device Integration/WEAD ATR>
 .. toctree::
    :caption: Device Utilities
    :hidden:
@@ -147,4 +148,3 @@
    Nexmosphere <iom/BETA/Nexmosphere>
    RDM Discovery <iom/BETA/RDM Discovery>
    Server Technology PDU <iom/BETA/Server Technology PDU>
-   WEAD ATR <iom/BETA/WEAD ATR>

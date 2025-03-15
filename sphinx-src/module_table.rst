@@ -117,6 +117,11 @@
      - 2.0.0
      - Controls a VideoLAN VLC Player using the HTTP API
      - 2.2.0
+   * - Device Integration
+     - :doc:`WEAD ATR<iom/Device Integration/WEAD ATR>`
+     - 2.0.0
+     - Poll WEAD ATR Sensors
+     - 2.6.0
    * - Device Utilities
      - :doc:`Controller Analog Input Status<iom/Device Utilities/Controller Analog Input Status>`
      - 2.0.0
@@ -592,8 +597,3 @@
      - 2.0.0.BETA1
      - Control and monitor Server Technology PDUs
      - 2.3.0
-   * - BETA
-     - :doc:`WEAD ATR<iom/BETA/WEAD ATR>`
-     - 2.0.0.BETA2
-     - Poll WEAD ATR Sensors
-     - 2.6.0
