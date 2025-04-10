@@ -1,4 +1,4 @@
-# KissBox IO CardCages - Version 2.1.2
+# KissBox IO CardCages - Version 2.1.3
 
 ## Module Summary
 
@@ -12,6 +12,10 @@ This IO Module is stable and has been tested internally, and on live project.
 If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
 
 ### Release Notes
+
+#### Version 2.1.3
+
+* &nbsp; Adds instance property *Card Cage* to limit operations on non-existent slots.
 
 #### Version 2.1.2
 
@@ -62,6 +66,8 @@ If *Check at Startup* is checked the Controller will query the state of the inpu
 
 The *Connection Poll* property defines how often the Controller checks whether the KissBox is accessible on the network
 , and will fire a *Connection Status Changed* Trigger (if one exist in the show) when the status changes.
+
+*Card Cage* selects the number of slots KissBox Card Cage type, and alters the number of available slots for configuration.
 
 *Slot [x] Card* - Selecting the Card type will enable displaying the current status of each card on the Controller's Web Interface.
 

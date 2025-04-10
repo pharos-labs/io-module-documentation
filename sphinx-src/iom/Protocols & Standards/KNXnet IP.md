@@ -1,4 +1,4 @@
-# KNXnet/IP - Version 2.5.0
+# KNXnet/IP - Version 2.5.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -12,7 +12,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 #### Module Scope
 
-Please not that this module requires a KNX Router for communication; a KNX Switch does not provide the functionality needed.
+Please note that this module requires a KNX Router for communication; a KNX Switch does not provide the functionality needed.
 
 #### Version 2.5
 * &nbsp;Fixes socket (re)initialisation on network interface events.

@@ -64,9 +64,9 @@
      - 2.5.0
    * - Device Integration
      - :doc:`KissBox IO CardCages<iom/Device Integration/KissBox IO CardCages>`
-     - 2.1.2
+     - 2.1.3
      - Integrates with KissBox IO CardCages
-     - 2.2.0
+     - 2.5.0
    * - Device Integration
      - :doc:`Level Developments LCH-360<iom/Device Integration/Level Developments LCH-360>`
      - 2.0.1
@@ -249,7 +249,7 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`BACnet Server<iom/Protocols & Standards/BACnet Server>`
-     - 2.3.1
+     - 2.3.2
      - Integrates with a BACnet system by behaving as a BACnet server, to be discovered and controlled by BACnet devices
      - 2.4.0
    * - Protocols & Standards
@@ -269,7 +269,7 @@
      - 2.2.1
    * - Protocols & Standards
      - :doc:`KNXnet/IP<iom/Protocols & Standards/KNXnet IP>`
-     - 2.5.0
+     - 2.5.1
      - Integrates with a KNXnet/IP Router
      - 2.2.0
    * - Protocols & Standards
@@ -419,7 +419,7 @@
      - 2.3.0
    * - Trigger Utilities
      - :doc:`Modify Trigger Variables<iom/Trigger Utilities/Modify Trigger Variables>`
-     - 2.1.1
+     - 2.1.2
      - Modifies the value of variables captured by a Trigger before being passed to Actions
      - 2.2.0
    * - Trigger Utilities
@@ -524,9 +524,9 @@
      - 2.2.1
    * - Web Services
      - :doc:`Kumux<iom/Web Services/Kumux>`
-     - 2.1.0
+     - 2.1.1
      - Interacts with KUMUX, getting the value of the Correlated Colour Temperature (CCT) for a given date, time, and location.
-     - 2.3.0
+     - 2.6.0
    * - Web Services
      - :doc:`MET Norway<iom/Web Services/MET Norway>`
      - 2.0.1

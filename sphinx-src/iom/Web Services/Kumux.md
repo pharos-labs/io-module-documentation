@@ -1,4 +1,4 @@
-# Kumux - Version 2.1.0
+# Kumux - Version 2.1.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -25,10 +25,11 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.1
+#### Version 2.1.1
 
 * Add condition: *Latest Smart Lighting Target*
 * Remove scaling properties
+* Add trigger description for 'Any' instance
 
 #### Version 2.0
 

@@ -1,4 +1,4 @@
-# Modify Trigger Variables - Version 2.1.1
+# Modify Trigger Variables - Version 2.1.2
 
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
@@ -18,10 +18,11 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.1
+#### Version 2.1.2
 
 * &nbsp;Added *Convert Value* Condition.
 * &nbsp;Added *Change Range* Condition.
+* &nbsp;Fixed to allow division of 0, but disallow division by 0.
 
 #### Version 2.0
 
