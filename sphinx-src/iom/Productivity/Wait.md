@@ -1,4 +1,4 @@
-# Wait - Version 2.4.0
+# Wait - Version 2.4.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -17,8 +17,9 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.4
+#### Version 2.4.1
 * &nbsp;Add time remaining triggers option.
+* &nbsp;Improved handling of floating point wait times passed as variables.
 
 #### Version 2.3
 

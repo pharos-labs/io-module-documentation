@@ -1,4 +1,4 @@
-# Restore - Version 2.0.0
+# Restore - Version 2.1.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -31,9 +31,13 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
+#### Version 2.1
+
+* Multi-controller improvements.
+
 #### Version 2.0
 
-* &nbsp;Initial release.
+* Initial release.
 
 [//]: # (Always required)
 *Minor point releases (eg. 1.1.x) will be for small fixes and may not be listed here.*

@@ -159,7 +159,7 @@
      - 2.2.0
    * - Device Utilities
      - :doc:`Restore<iom/Device Utilities/Restore>`
-     - 2.0.0
+     - 2.1.0
      - Save current scene and timeline state to disk for restoration later
      - 2.4.0
    * - Device Utilities
@@ -239,7 +239,7 @@
      - 2.2.0
    * - Productivity
      - :doc:`Wait<iom/Productivity/Wait>`
-     - 2.4.0
+     - 2.4.1
      - Enables a trigger to fire after a specified time delay
      - 2.2.0
    * - Productivity
