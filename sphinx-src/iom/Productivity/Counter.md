@@ -1,4 +1,4 @@
-# Counter - Version 2.1.0
+# Counter - Version 2.2.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -17,9 +17,11 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.0
+#### Version 2.2
 
-* &nbsp;Updated documentation.
+* Adds action *Decrement*
+* Adds trigger *Value Changed*
+* Adds instance property *Start At*
 
 *Minor point releases (eg. 1.1.x) will be for small fixes and may not be listed here.*
 
@@ -33,17 +35,27 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 [//]: # (Give all the operational details linked to using Instance Properties, Triggers, Conditions, Actions, Variables associated with the module's operation)
 
-Use actions to *Incriment* the Counter and fire the *Target* trigger once the target *Count* has been reached.
+Use actions *Increment* and *Decrement*, to alter the Counter and fire the *Target* trigger once the target *Count* has been reached.
 
 ### Instance Properties
 
 *Count* defines the target Counter value. Once this target is hit, the *Target* trigger will fire.
 
+*Start At* defines the Counters start and reset value.
+
 ### Triggers
 
 #### Target
 
-Fires when the *Count* target is reached (from using *Incriemnt* actions). Once the trigger has been fired, the the counter will be reset to 0.
+Fires when the *Count* target is reached (from using *Increment* and *Decrement* actions). Once the trigger has been fired, the the counter will be reset to *Start At*.
+
+#### Value Changed
+
+Fires when the *Count* value has been changed (from using *Increment*, *Decrement*, or *Reset* actions).
+
+Trigger variables:
+
+1. Counter value (*integer*).
 
 [//]: # (### Conditions)
 [//]: # (Conditions are other criteria that need to be met after a trigger to activate an Action)
@@ -52,20 +64,23 @@ Fires when the *Count* target is reached (from using *Incriemnt* actions). Once 
 
 #### Start
 
-Activates the Counter. Without a *Start* action being called, an *Increment* action will have no effect on the Counter.
-
+Activates the Counter. Without a *Start* action being called, *Increment* and *Decrement* actions will have no effect on the Counter.
 
 #### Stop
 
-Deactivates the Counter. If the *Stop* action has been called, an *Increment* action will have no effect on the Counter.
+Deactivates the Counter. If the *Stop* action has been called, *Increment* and *Decrement* actions will have no effect on the Counter.
 
 #### Increment
 
 Adds one to the Counter, if it is active.
 
+#### Decrement
+
+Subtracts one from the Counter, if it is active.
+
 #### Reset
 
-Resets the counter back to 0.
+Resets the counter back to *Start At*.
 
 [//]: # (### Variables)
 [//]: # (Variables are a way of collecting numbers from inputs and using them in actions)

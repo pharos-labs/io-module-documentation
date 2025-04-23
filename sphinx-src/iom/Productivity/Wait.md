@@ -1,4 +1,4 @@
-# Wait - Version 2.4.1
+# Wait - Version 2.5.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -16,6 +16,9 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 ### Release Notes
+
+#### Version 2.5
+* &nbsp;Improved timer management
 
 #### Version 2.4.1
 * &nbsp;Add time remaining triggers option.
@@ -51,7 +54,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ## Operation
 
-Use the *Wait* action to enqueue a trigger. The *Trigger* will fire independently of others, after the specified delay in *Seconds*, once a *Wait* action has been called. Any number of Waits can exist in one instance so if individual control of a Wait stack is required, create a new instance. The *Cancel Waits* action will cancel all Waits within a given instance.\
+Use the *Wait* action to enqueue a trigger. The *Trigger* will fire independently of others, after the specified delay in *Seconds*, once a *Wait* action has been called. Any number of Waits can exist in one instance so if individual control of a Wait stack is required, create a new instance. The *Cancel Waits* action will cancel all Waits within a given instance.
 
 The variables present when the *Wait* action is fired, are copied to the resultant trigger.
 
@@ -67,7 +70,7 @@ If *Log Actions* is checked, log messages will be displayed for new *Wait* Actio
 
 #### Wait
 
-Fires the *Trigger* after the specified wait time in *Seconds* time. Multiple Waits can be used within one instance and will all fire independently of each other. The IO Module tab in the web interface will show the enqueued Waits with a countdown for each. To cancel all Waits within an instance, use the *Cancel Waits* action.\
+Fires the *Trigger* after the specified wait time in *Seconds* time. Multiple Waits can be used within one instance and will all fire independently of each other. The IO Module tab in the web interface will show the enqueued Waits with a countdown for each. To cancel all Waits within an instance, use the *Cancel Waits* action.
 
 An optional *Countdown Trigger Number* can be set to, this trigger will be called frequently with the last variable set to the remaining wait time.
 

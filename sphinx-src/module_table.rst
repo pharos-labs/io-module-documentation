@@ -174,7 +174,7 @@
      - 2.2.0
    * - Productivity
      - :doc:`Counter<iom/Productivity/Counter>`
-     - 2.1.0
+     - 2.2.0
      - Fires a trigger once a given number of triggers have been received
      - 2.2.0
    * - Productivity
@@ -239,7 +239,7 @@
      - 2.2.0
    * - Productivity
      - :doc:`Wait<iom/Productivity/Wait>`
-     - 2.4.1
+     - 2.5.0
      - Enables a trigger to fire after a specified time delay
      - 2.2.0
    * - Productivity
