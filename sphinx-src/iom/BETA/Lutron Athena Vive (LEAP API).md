@@ -1,4 +1,4 @@
-# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA2
+# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA3
 
 
 <h2>Module Summary</h2>
@@ -13,7 +13,7 @@ Please refer to the <em>Associate</em> action documentation below.</br></p>
 
 
 <h3>Release Notes</h3>
-<h4>Version 2.2 (Beta 2)</h4>
+<h4>Version 2.2 (Beta 3)</h4>
 <ul>
 <li>Clears local cache on Lutron Ethernet bridge project change</li>
 <li>Improved logging</li>
@@ -28,6 +28,7 @@ Please refer to the <em>Associate</em> action documentation below.</br></p>
 </li>
 <li>Added Actions:
             <ul>
+<li><i>Area: Goto level</i></li>
 <li><i>Button: Set state</i></li>
 </ul>
 </li>
@@ -572,6 +573,17 @@ The scene must exist in the area</p>
 <ul>
 <li><i>Area</i> Area number.</li>
 <li><i>Scene</i> Scene number.</li>
+</ul>
+</div>
+<div class="athena">
+<h4>Area: Goto level <b><i>(Athena only)</i></b></h4>
+<p>Set <em>Area</em> lighting to <em>Level</em> over <em>Fade</em> seconds after waiting <em>Delay</em> seconds.</p>
+<p>Properties:</p>
+<ul>
+<li><i>Area</i> Area number.</li>
+<li><i>Level</i> Level (percent).</li>
+<li><i>Fade</i> Fade time (seconds).</li>
+<li><i>Delay</i> Delay time (seconds).</li>
 </ul>
 </div>
 <div class="athena">
