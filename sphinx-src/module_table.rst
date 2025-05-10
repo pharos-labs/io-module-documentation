@@ -249,7 +249,7 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`BACnet Server<iom/Protocols & Standards/BACnet Server>`
-     - 2.3.2
+     - 2.3.3
      - Integrates with a BACnet system by behaving as a BACnet server, to be discovered and controlled by BACnet devices
      - 2.4.0
    * - Protocols & Standards
