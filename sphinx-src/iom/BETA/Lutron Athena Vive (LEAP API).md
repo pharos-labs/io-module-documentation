@@ -1,4 +1,4 @@
-# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA3
+# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA4
 
 
 <h2>Module Summary</h2>
@@ -13,8 +13,9 @@ Please refer to the <em>Associate</em> action documentation below.</br></p>
 
 
 <h3>Release Notes</h3>
-<h4>Version 2.2 (Beta 3)</h4>
+<h4>Version 2.2 (Beta 4)</h4>
 <ul>
+<li>Increased maximum allowable LEAP ID to 99,999</li>
 <li>Clears local cache on Lutron Ethernet bridge project change</li>
 <li>Improved logging</li>
 <div class="athena">
