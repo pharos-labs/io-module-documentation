@@ -1,4 +1,4 @@
-# Colour tools - Version 2.1.0.BETA1
+# Colour tools - Version 2.1.0.BETA2
 
 <head>
     <style type="text/css">
@@ -175,6 +175,8 @@ In all modification Conditions, the modified value does not replace the existing
 
 #### HSI to RGB
 
+<b>Note:</b> The native colour format in Designer is HSV. When working with HS colour values to or from Designer, use the HSV conversion options.
+
 <table>
     <tbody>
         <tr>
@@ -191,6 +193,8 @@ In all modification Conditions, the modified value does not replace the existing
 </table>
 
 #### HSV to RGB
+
+<b>Note:</b> The native colour format in Designer is HSV. When working with HS colour values to or from Designer, use the HSV conversion options.
 
 <table>
     <tbody>

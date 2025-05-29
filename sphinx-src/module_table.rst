@@ -549,7 +549,7 @@
      - 2.2.0
    * - BETA
      - :doc:`Colour tools<iom/BETA/Colour tools>`
-     - 2.1.0.BETA1
+     - 2.1.0.BETA2
      - Colour helper tools, used to convert between colour spaces
      - 2.6.0
    * - BETA
