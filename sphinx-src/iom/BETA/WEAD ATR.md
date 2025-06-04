@@ -1,4 +1,4 @@
-# WEAD ATR - Version 2.0.0.BETA2
+# WEAD ATR - Version 2.1.0.BETA1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -14,8 +14,8 @@ Poll WEAD ATR Sensors for touch events
 ## Module Status
 
 [//]: # (UNCOMMENT AND DELETE AS APPROPRIATE)
-[//]: # (This IO Module is stable and has been tested internally.)
-**Note:** Please be aware that this is a beta version of this IO Module which has not yet been fully tested. We recommend testing before use.
+[//]: # (**Note:** This IO Module is stable and has been tested internally.)
+Please be aware that this is a beta version of this IO Module which has not yet been fully tested. We recommend testing before use.)
 
 [//]: # (Always required)
 If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
@@ -25,9 +25,14 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
+#### Version 2.1
+
+* Adds *Touch State* and *Repeat* properties to trigger *Touch Detected*.
+* Include current sensor value in trigger *Touch Detected* return variables.
+
 #### Version 2.0
 
-* &nbsp;Initial release.
+* Initial release.
 
 [//]: # (Always required)
 *Minor point releases (eg. 1.1.x) will be for small fixes and may not be listed here.*
@@ -37,7 +42,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ## Configuration
 [//]: # (Mention any setup aspects the user should note that are generally done outside the Designer interface)
-The WEAD sensors much be appropriately patched in Designer, for this module to match the fixture numbers.
+The WEAD sensors must be appropriately patched in Designer, for this module to match the fixture numbers.
 
 ## Operation
 
@@ -63,11 +68,13 @@ These should be set to select the desired matching *Interface* number/universe f
 
 #### Touch Detected
 
-Fires when the fixture reports, via polling, a touch has been detected.
+Fires when the fixture reports, via polling, a touch matches *Touch State*.\
+When property *Repeat* is disabled, the trigger will only fire when the touch state has changed. Otherwise the trigger will fire every *Polling Rate* while touch is detected.
 
 Trigger variables:
 
-* &nbsp;*Variable 1*: Fixture number (*integer*).
+* *Variable 1*: Fixture number (*integer*).
+* *Variable 2*: Current sensor value (*integer*).
 
 ### Actions
 

@@ -148,3 +148,4 @@
    Nexmosphere <iom/BETA/Nexmosphere>
    RDM Discovery <iom/BETA/RDM Discovery>
    Server Technology PDU <iom/BETA/Server Technology PDU>
+   WEAD ATR <iom/BETA/WEAD ATR>

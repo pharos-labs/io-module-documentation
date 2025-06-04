@@ -597,3 +597,8 @@
      - 2.0.0.BETA1
      - Control and monitor Server Technology PDUs
      - 2.3.0
+   * - BETA
+     - :doc:`WEAD ATR<iom/BETA/WEAD ATR>`
+     - 2.1.0.BETA1
+     - Poll WEAD ATR Sensors
+     - 2.6.0
