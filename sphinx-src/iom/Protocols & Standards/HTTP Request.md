@@ -1,4 +1,4 @@
-# HTTP Request - Version 2.3.3
+# HTTP Request - Version 2.4.2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 ## Module Summary
@@ -16,6 +16,15 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 #### Release Notes
+
+#### Version 2.4.2
+
+* &nbsp;Improved compatibility with older Designer versions.
+
+#### Version 2.4.1
+
+* &nbsp;Improved URI validation and sanitisation.
+* &nbsp;Fixed condition *Get JSON Values* *Identifier Value* property matching.
 
 #### Version 2.3.3
 

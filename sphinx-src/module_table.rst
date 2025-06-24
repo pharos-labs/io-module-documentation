@@ -264,7 +264,7 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`HTTP Request<iom/Protocols & Standards/HTTP Request>`
-     - 2.3.3
+     - 2.4.2
      - Sends a HTTP/HTTPS requests and processes its response
      - 2.2.1
    * - Protocols & Standards
@@ -602,3 +602,8 @@
      - 2.1.0.BETA1
      - Poll WEAD ATR Sensors
      - 2.6.0
+   * - BETA
+     - :doc:`Zencontrol TPI<iom/BETA/Zencontrol TPI>`
+     - 2.0.0.BETA1
+     - Interact with Zencontrol Third Party Interface (TPI)
+     - 2.7.0
