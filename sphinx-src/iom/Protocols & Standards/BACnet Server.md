@@ -1,4 +1,4 @@
-# BACnet Server - Version 2.3.3
+# BACnet Server - Version 2.3.4
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -43,10 +43,11 @@ The PICS for this BACnet Module is available on request, by contacting support.
 
 ### Release Notes
 
-#### Version 2.3.3
+#### Version 2.3.4
 * &nbsp;Resolves controller crash on project re-upload
 * &nbsp;Adds missing polarity property on auto created binary inputs
 * &nbsp;Resolves issue where a binary 'false' could be interpreted as a missing property
+* &nbsp;Received object values are no longer rounded to 1 decimal place.
 
 #### Version 2.3
 

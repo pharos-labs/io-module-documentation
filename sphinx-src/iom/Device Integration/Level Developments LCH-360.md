@@ -1,4 +1,4 @@
-# Level Developments LCH-360 - Version 2.0.1
+# Level Developments LCH-360 - Version 2.1.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -8,6 +8,8 @@ Receives angle values from the Level Developments LCH-360 Single Axis Inclinomet
 
 ## Module Status
 
+[//]: # (UNCOMMENT AND DELETE AS APPROPRIATE)
+[//]: # (**Note:** Please be aware that this is a beta version of this IO Module which has not yet been fully tested. We recommend testing before use.)
 This IO Module is stable and has been tested internally.
 
 If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
@@ -16,6 +18,9 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 ### Release Notes
+
+#### Version 2.1
+* Improved serial buffer management
 
 #### Version 2.0
 

@@ -69,9 +69,9 @@
      - 2.5.0
    * - Device Integration
      - :doc:`Level Developments LCH-360<iom/Device Integration/Level Developments LCH-360>`
-     - 2.0.1
+     - 2.1.0
      - Receives angle data from the Level Developments LCH-360 Single Axis Inclinometer
-     - 2.2.0
+     - 2.6.0
    * - Device Integration
      - :doc:`Madrix 5<iom/Device Integration/Madrix 5>`
      - 2.0.0
@@ -249,7 +249,7 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`BACnet Server<iom/Protocols & Standards/BACnet Server>`
-     - 2.3.3
+     - 2.3.4
      - Integrates with a BACnet system by behaving as a BACnet server, to be discovered and controlled by BACnet devices
      - 2.4.0
    * - Protocols & Standards
