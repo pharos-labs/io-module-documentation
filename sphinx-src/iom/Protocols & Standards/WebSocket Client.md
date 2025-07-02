@@ -1,4 +1,4 @@
-# WebSocket Client - Version 2.2.0
+# WebSocket Client - Version 2.2.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -17,7 +17,7 @@ This IO Module is stable and has been tested internally.
 
 ### Release Notes
 
-#### Version 2.2
+#### Version 2.2.1
 * &nbsp;Fully rewritten WebSocket client library for increased performance and compatibility.
 * &nbsp;Added ability to disable keep-alive pings.
 

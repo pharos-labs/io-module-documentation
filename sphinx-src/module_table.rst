@@ -314,7 +314,7 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`WebSocket Client<iom/Protocols & Standards/WebSocket Client>`
-     - 2.2.0
+     - 2.2.1
      - Communicates with a HTTP/TCP server over a WebSocket
      - 2.4.0
    * - System Integration
@@ -587,6 +587,11 @@
      - 2.0.0.BETA3
      - Interact with Nexmosphere elements via a Nexmosphere Xperience controller
      - 2.5.0
+   * - BETA
+     - :doc:`OSC<iom/BETA/OSC>`
+     - 2.3.0.BETA1
+     - Integrates with devices via OSC
+     - 2.6.0
    * - BETA
      - :doc:`RDM Discovery<iom/BETA/RDM Discovery>`
      - 2.0.1.BETA4

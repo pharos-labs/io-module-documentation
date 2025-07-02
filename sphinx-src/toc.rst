@@ -146,6 +146,7 @@
    Lutron Quantum (Serial/Telnet) <iom/BETA/Lutron Quantum (Serial Telnet)>
    MPD <iom/BETA/MPD>
    Nexmosphere <iom/BETA/Nexmosphere>
+   OSC <iom/BETA/OSC>
    RDM Discovery <iom/BETA/RDM Discovery>
    Server Technology PDU <iom/BETA/Server Technology PDU>
    WEAD ATR <iom/BETA/WEAD ATR>
