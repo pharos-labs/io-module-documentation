@@ -543,6 +543,11 @@
      - Receives high and low tide information for a specified location in UK
      - 2.2.0
    * - BETA
+     - :doc:`Accuweather<iom/BETA/Accuweather>`
+     - 2.3.0.BETA1
+     - Receives weather conditions and forecasts for a specific location
+     - 2.7.0
+   * - BETA
      - :doc:`Advatek PixLite MK3<iom/BETA/Advatek PixLite MK3>`
      - 2.1.0.BETA1
      - Integrates with a Advatek PixLite

@@ -137,6 +137,7 @@
    :caption: BETA
    :hidden:
 
+   Accuweather <iom/BETA/Accuweather>
    Advatek PixLite MK3 <iom/BETA/Advatek PixLite MK3>
    Colour tools <iom/BETA/Colour tools>
    Controller HTTP API Over... <iom/BETA/Controller HTTP API Over...>
