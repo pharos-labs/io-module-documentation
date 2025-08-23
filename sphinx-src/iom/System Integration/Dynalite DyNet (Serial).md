@@ -1,4 +1,4 @@
-# Dynalite DyNet (Serial) - Version 2.5.1
+# Dynalite DyNet (Serial) - Version 2.5.2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -36,7 +36,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.5.1
+#### Version 2.5.2
 * &nbsp;Added support for DyNet v2
 * &nbsp;Added new Actions:
   * &nbsp;Request DALI Ballast Status
@@ -110,7 +110,7 @@ In order for the Controller to be able to communicate with a DyNet Network, and 
 This IO Module uses a fixed set of OpCodes, the most common ones, from the DyNet protocol.
 However, by using the *Custom Logical Command* Action, you can use any OpCode that is not currently supported by this IO Module's Actions.
 This requires that you understand the DyNet Message Protocol, and the desired DyNet Command / OpCode you wish to send.
-Refer to both the *Custom Logical Command* Action, and the [DyNet Reference](http://www.awe-europe.com/documents/Dynalite/DyNet_Reference_Intro.pdf) for more information on OpCodes.
+Refer to both the *Custom Logical Command* Action, and [Dynalite documentation](https://dynalite.com/) for more information on OpCodes.
 
 For your information and convenience, Triggers and Actions specify the OpCode(s) used.
 

@@ -329,7 +329,7 @@
      - 2.4.0
    * - System Integration
      - :doc:`Dynalite DyNet (Serial)<iom/System Integration/Dynalite DyNet (Serial)>`
-     - 2.5.1
+     - 2.5.2
      - Integrates with Philips Dynalite using DyNet v1 messages on the serial DyNet connection
      - 2.2.0
    * - System Integration
@@ -552,6 +552,11 @@
      - 2.1.0.BETA1
      - Integrates with a Advatek PixLite
      - 2.2.0
+   * - BETA
+     - :doc:`Casambi Lithernet Gateway<iom/BETA/Casambi Lithernet Gateway>`
+     - 2.1.0.BETA1
+     - Sends commands to and receives data from Lithernet Casambi Gateway
+     - 2.6.0
    * - BETA
      - :doc:`Colour tools<iom/BETA/Colour tools>`
      - 2.1.0.BETA2

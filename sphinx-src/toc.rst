@@ -139,6 +139,7 @@
 
    Accuweather <iom/BETA/Accuweather>
    Advatek PixLite MK3 <iom/BETA/Advatek PixLite MK3>
+   Casambi Lithernet Gateway <iom/BETA/Casambi Lithernet Gateway>
    Colour tools <iom/BETA/Colour tools>
    Controller HTTP API Over... <iom/BETA/Controller HTTP API Over...>
    DMX Value Mapper <iom/BETA/DMX Value Mapper>
