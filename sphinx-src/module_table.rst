@@ -599,7 +599,7 @@
      - 2.5.0
    * - BETA
      - :doc:`OSC<iom/BETA/OSC>`
-     - 2.3.0.BETA1
+     - 2.3.0.BETA2
      - Integrates with devices via OSC
      - 2.6.0
    * - BETA

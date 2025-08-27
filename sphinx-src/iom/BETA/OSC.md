@@ -1,4 +1,4 @@
-# OSC - Version 2.3.0.BETA1
+# OSC - Version 2.3.0.BETA2
 
 <head>
 <style type="text/css">
@@ -32,6 +32,10 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 #### Version 2.3
 * &nbsp;Adds support for TCP connections
+* &nbsp;Action format `Type Value Pairs` replaced with `JSON` **This may require user action when updating**
+* &nbsp;Adds support for sending and receiving OSC bundles
+* &nbsp;Renamed property *Address* to *OSC Address*
+* &nbsp;Renamed property *Hostname* to *OSC Host*
 
 #### Version 2.2.1
 * &nbsp;Adds support for true (T) and false (F) type tags.
@@ -68,7 +72,7 @@ Checking the *Extended Logging* checkbox will provide more detailed log messages
 
 ### Triggers
 
-Triggers support *Address* pattern matching, where matches can be literal matches:\
+Triggers support *OSC Address* pattern matching, where matches can be literal matches:\
 &nbsp;&nbsp;e.g. `/myAddress/button1` would match `/myAddress/button1`
 
 or they could include matching patterns:\
@@ -85,7 +89,7 @@ or they could include matching patterns:\
 
 #### Input
 
-This Trigger fires when an OSC message, of matching *Address*, is received by the Controller.
+This Trigger fires when an OSC message, of matching *OSC Address*, is received by the Controller.
 
 Trigger variables:
 
@@ -98,7 +102,7 @@ Trigger variables:
 
 #### Button Input
 
-This Trigger fires when an OSC button message, of matching *Address*, is received by the Controller.\
+This Trigger fires when an OSC button message, of matching *OSC Address*, is received by the Controller.\
 If the button value (1 for pressed or 0 for released) matches the *Button State*, the trigger will fire and pass the button value as a trigger variable.\
 If the value is not a valid button value, the trigger will not fire and this will be logged.
 
@@ -151,17 +155,17 @@ The two Actions available are both for outputting OSC messages.
 
 This Action takes all the trigger variables, and adds them to the OSC message being output as arguments.
 
-Use the *Hostname* to specify the network address (IP or web domain) to which the OSC message will be delivered.
+Use the *OSC Host* to specify the network address (IP or DNS address) to which the OSC message will be delivered.
 
-Use the *Address* to specify the OSC address to which the OSC message's arguments will be delivered.
+Use the *OSC Address* to specify the OSC address to which the OSC message's arguments will be delivered.
 
 #### Output Using Values
 
 This Action, compared to Output Using Variables, allows both the use of trigger variables, and user-specified values to be used and passed on as an output OSC message.
 
-Use the *Hostname* to specify the network address (IP or web domain) to which the OSC message will be delivered.
+Use the *OSC Host* to specify the network address (IP or DNS address) to which the OSC message will be delivered.
 
-Use the *Address* to specify the OSC address to which the OSC message's arguments will be delivered.
+Use the *OSC Address* to specify the OSC address to which the OSC message's arguments will be delivered.
 
 There are two types of *Format* available: *Comma Separated Values* and *Type Value Pairs*, see below for more details as the choice of *Format* dictates how the *Values* should be written.
 
@@ -257,11 +261,11 @@ Values need to be comma separated. Any value that does not fit the abovementione
     </tbody>
 </table>
 
-##### Type Value Pairs
+##### JSON
 
-This *Format* uses a JSON type syntax to explicitly define the value type and value, and allows the insertion of both user-specified values and variables to the OSC message.
+This *Format* uses a JSON syntax to explicitly define the value type and value, and allows the insertion of both user-specified values and variables to the OSC message.
 
-Each value is described using a type-value pair surrounded by curly brackets, all values are comma separated. The basic structure is as follows: <code>{"type":"&lt;type&gt;","value":&lt;value&gt;}</code>, where <code>"&lt;type&gt;"</code> can either be:
+Each value is described using a type-value pair surrounded by curly brackets. The basic structure is as follows: <code>{"type":"&lt;type&gt;","value":&lt;value&gt;}</code> where <code>"&lt;type&gt;"</code> can either be:
 
 * &nbsp;<code>"s"</code> to specify a <code>string</code> value type
 * &nbsp;<code>"i"</code> to specify an <code>integer</code> value type
@@ -270,6 +274,9 @@ Each value is described using a type-value pair surrounded by curly brackets, al
 * &nbsp;<code>"F"</code> to specify a <code>false</code> value type, no value is required or expected
 
 The <code>&lt;value&gt;</code> syntax must match the above mentioned format (see 2 tables up).
+
+Multiple type/value pairs can be issued, surrounded by square brackets and separated by a comma\
+e.g. <code>[{"type":"s","value":"String 1"}, {"type":"i","value":1}]</code>
 
 **Note** this *Format* will NOT SEND if there is a mismatch between the stated value type, and the value syntax. See the following examples for more details:
 
@@ -282,7 +289,7 @@ The <code>&lt;value&gt;</code> syntax must match the above mentioned format (see
     </thead>
     <tbody>
         <tr>
-            <td style="text-align: center;"><code>{"type":"s","value":"hello world"},<br />{"type":"i","value":3},<br />{"type":"f","value":55.2}</code></td>
+            <td style="text-align: center;"><code>[{"type":"s","value":"hello world"},<br />{"type":"i","value":3},<br />{"type":"f","value":55.2}]</code></td>
             <td>
                 <ul>
                     <li><code>"hello world"</code> : <code>string</code></li>
@@ -293,7 +300,7 @@ The <code>&lt;value&gt;</code> syntax must match the above mentioned format (see
             </td>
         </tr>
         <tr>
-            <td style="text-align: center;"><code>{"type":"i","value":3.7},<br />{"type":"f","value":&lt;2&gt;},<br />{"type":"s","value":Smith}</code></td>
+            <td style="text-align: center;"><code>[{"type":"i","value":3.7},<br />{"type":"f","value":&lt;2&gt;},<br />{"type":"s","value":Smith}]</code></td>
             <td>
                 <ul>
                     <li><code>3.7</code> : ERROR: value does not have the correct integer syntax</li>
@@ -305,6 +312,75 @@ The <code>&lt;value&gt;</code> syntax must match the above mentioned format (see
         </tr>
     </tbody>
 </table>
+
+Bundles can be sent using the JSON syntax using the type `"bundles"`.
+All bundles are sent with the time-tag `immediately`.
+The formatting is best described using examples:
+
+Example 1 - To send a bundle containing only a single message, with the `integer` value `3`, and the `float` value of `variable 2` the following example would be used:
+
+```json
+{
+  "type": "bundle",
+  "value": [
+    [
+      {
+        "type": "i",
+        "value": 3
+      },
+      {
+        "type": "f",
+        "value": <2>
+      }
+    ]
+  ]
+}
+```
+
+Example 2 - To send two messages in a bundle, message 1 with the `string` value `Message 1`, and message 2 with the `string` value `Message 2`:
+
+```json
+{
+  "type": "bundle",
+  "value": [
+    [
+      {
+        "type": "s",
+        "value": "Message 1"
+      }
+    ],
+    [
+      {
+        "type": "s",
+        "value": "Message 2"
+      }
+    ]
+  ]
+}
+```
+
+Example 3 - Bundles can also be nested:
+
+```json
+{
+  "type": "bundle",
+  "value": [
+    {
+      "type": "i",
+      "value": 3
+    },
+    {
+      "type": "bundle",
+      "value": [
+        {
+          "type": "s",
+          "value": "This is a nested bundle"
+        }
+      ]
+    }
+  ]
+}
+```
 
 [//]: # (#### Variables)
 [//]: # (Variables are a way of collecting numbers from inputs and using them in actions)
