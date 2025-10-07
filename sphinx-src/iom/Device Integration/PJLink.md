@@ -1,4 +1,4 @@
-# PJLink - Version 2.0.0
+# PJLink - Version 2.1.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -21,6 +21,10 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 ### Release Notes
+
+#### Version 2.1
+
+* &nbsp;Faster detection of connection timeouts.
 
 #### Version 2.0
 

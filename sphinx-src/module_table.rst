@@ -84,7 +84,7 @@
      - 2.3.0
    * - Device Integration
      - :doc:`PJLink<iom/Device Integration/PJLink>`
-     - 2.0.0
+     - 2.1.0
      - Controls and queries PJLink projectors
      - 2.2.0
    * - Device Integration
@@ -572,6 +572,11 @@
      - 2.1.0.BETA3
      - Maps DMX channel values to Trigger variables, when a change in a DMX value is detected
      - 2.2.0
+   * - BETA
+     - :doc:`Hive<iom/BETA/Hive>`
+     - 2.0.0.BETA1
+     - Integrate with Hive Media Control
+     - 2.3.0
    * - BETA
      - :doc:`LumiNode<iom/BETA/LumiNode>`
      - 2.0.0.BETA5

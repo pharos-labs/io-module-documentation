@@ -143,6 +143,7 @@
    Colour tools <iom/BETA/Colour tools>
    Controller HTTP API Over... <iom/BETA/Controller HTTP API Over...>
    DMX Value Mapper <iom/BETA/DMX Value Mapper>
+   Hive <iom/BETA/Hive>
    LumiNode <iom/BETA/LumiNode>
    Lutron Athena/Vive (LEAP API) <iom/BETA/Lutron Athena Vive (LEAP API)>
    Lutron Quantum (Serial/Telnet) <iom/BETA/Lutron Quantum (Serial Telnet)>
