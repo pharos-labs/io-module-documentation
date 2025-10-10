@@ -349,7 +349,7 @@
      - 2.2.0
    * - System Integration
      - :doc:`ISAAC<iom/System Integration/ISAAC>`
-     - 2.1.2
+     - 2.1.3
      - Integrates with Smart Monkey's ISAAC platform
      - 2.2.1
    * - System Integration

@@ -1,4 +1,4 @@
-# ISAAC - Version 2.1.2
+# ISAAC - Version 2.1.3
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -23,6 +23,9 @@ The Controller can receive playable start and stop commands but can not Trigger 
 **Note: It is currently only possible to delete one playable in any one boot cycle.**
 
 ### Release Notes
+
+#### Version 2.1.3
+* &nbsp;API Updates for Playables
 
 #### Version 2.1.2
 
