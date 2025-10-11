@@ -573,6 +573,11 @@
      - Maps DMX channel values to Trigger variables, when a change in a DMX value is detected
      - 2.2.0
    * - BETA
+     - :doc:`Dynalite DyNet<iom/BETA/Dynalite DyNet>`
+     - 2.6.0.BETA1
+     - Integrates with Philips Dynalite using DyNet
+     - 2.6.0
+   * - BETA
      - :doc:`Hive<iom/BETA/Hive>`
      - 2.0.0.BETA1
      - Integrate with Hive Media Control
@@ -609,7 +614,7 @@
      - 2.6.0
    * - BETA
      - :doc:`RDM Discovery<iom/BETA/RDM Discovery>`
-     - 2.0.1.BETA4
+     - 2.0.1.BETA5
      - Discovers RDM fixtures and notifies of changes
      - 2.6.0
    * - BETA
