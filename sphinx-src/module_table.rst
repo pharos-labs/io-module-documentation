@@ -264,7 +264,7 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`HTTP Request<iom/Protocols & Standards/HTTP Request>`
-     - 2.4.2
+     - 2.4.3
      - Sends a HTTP/HTTPS requests and processes its response
      - 2.2.1
    * - Protocols & Standards

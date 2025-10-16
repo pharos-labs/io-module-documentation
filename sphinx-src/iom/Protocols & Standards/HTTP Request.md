@@ -1,4 +1,4 @@
-# HTTP Request - Version 2.4.2
+# HTTP Request - Version 2.4.3
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 ## Module Summary
@@ -16,6 +16,11 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 #### Release Notes
+
+#### Version 2.4.3
+
+* &nbsp;Removes dangling '?' with empty GET requests.
+* &nbsp;Fixes the use of JSON in query data.
 
 #### Version 2.4.2
 
