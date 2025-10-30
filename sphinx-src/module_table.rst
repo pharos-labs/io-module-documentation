@@ -614,7 +614,7 @@
      - 2.6.0
    * - BETA
      - :doc:`RDM Discovery<iom/BETA/RDM Discovery>`
-     - 2.0.1.BETA5
+     - 2.0.1.BETA6
      - Discovers RDM fixtures and notifies of changes
      - 2.6.0
    * - BETA

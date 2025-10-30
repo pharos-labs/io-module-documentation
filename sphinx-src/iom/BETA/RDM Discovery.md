@@ -1,4 +1,4 @@
-# RDM Discovery - Version 2.0.1.BETA5
+# RDM Discovery - Version 2.0.1.BETA6
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -31,6 +31,9 @@ Discovers RDM-enabled fixtures and notifies of changes, including newly discover
 If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
 
 ### Release Notes
+
+#### Version 2.0.1.BETA6
+* &nbsp; Fixed limit of 20 discovery actions.
 
 #### Version 2.0.1.BETA5
 * &nbsp; Fixed "Patched Fixture Re-Discovered" trigger
