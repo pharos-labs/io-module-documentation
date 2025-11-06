@@ -364,9 +364,9 @@
      - 2.5.0
    * - System Integration
      - :doc:`Philips Hue<iom/System Integration/Philips Hue>`
-     - 2.2.0
+     - 2.3.0
      - Controls a Philips Hue system
-     - 2.2.0
+     - 2.4.0
    * - System Integration
      - :doc:`Sorama Smart Stadium<iom/System Integration/Sorama Smart Stadium>`
      - 2.0.0

@@ -1,4 +1,4 @@
-# Philips Hue - Version 2.2.0
+# Philips Hue - Version 2.3.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -17,6 +17,10 @@ If you encounter any issues with this module, or have any feedback regarding its
 This IO module can only be used to control lights within a configured system. - it does not support configuring a system from scratch.
 
 ### Release Notes
+
+#### Version 2.3
+
+* &nbsp;Adds support for Philips Hue Pro bridges by adding support for HTTPs.
 
 #### Version 2.2
 
@@ -74,6 +78,8 @@ One module instance must be created for each Hue bridge in a system.
 *Bridge IP* is the IPv4 address of the Hue bridge.
 
 Enter the *Username* retrieved from step 7. of the *Configuration above*, above
+
+Check *Use HTTPS* to enable the use of secure HTTP as required by the bridge.
 
 [//]: # (### Triggers)
 [//]: # (An event received by the Controller that can be acted upon to create a reAction)
