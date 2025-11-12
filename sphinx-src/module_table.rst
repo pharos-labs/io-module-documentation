@@ -613,6 +613,11 @@
      - Integrates with devices via OSC
      - 2.6.0
    * - BETA
+     - :doc:`Pirate Weather<iom/BETA/Pirate Weather>`
+     - 2.0.0.BETA1
+     - Receives weather conditions and forecasts for the project location
+     - 2.7.0
+   * - BETA
      - :doc:`RDM Discovery<iom/BETA/RDM Discovery>`
      - 2.0.1.BETA6
      - Discovers RDM fixtures and notifies of changes

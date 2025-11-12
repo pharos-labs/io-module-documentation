@@ -151,6 +151,7 @@
    MPD <iom/BETA/MPD>
    Nexmosphere <iom/BETA/Nexmosphere>
    OSC <iom/BETA/OSC>
+   Pirate Weather <iom/BETA/Pirate Weather>
    RDM Discovery <iom/BETA/RDM Discovery>
    Server Technology PDU <iom/BETA/Server Technology PDU>
    WEAD ATR <iom/BETA/WEAD ATR>
