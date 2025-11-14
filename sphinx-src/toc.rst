@@ -155,4 +155,5 @@
    RDM Discovery <iom/BETA/RDM Discovery>
    Server Technology PDU <iom/BETA/Server Technology PDU>
    WEAD ATR <iom/BETA/WEAD ATR>
+   Wattstopper PLUS <iom/BETA/Wattstopper PLUS>
    Zencontrol TPI <iom/BETA/Zencontrol TPI>

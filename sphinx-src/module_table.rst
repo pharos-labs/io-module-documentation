@@ -633,6 +633,11 @@
      - Poll WEAD ATR Sensors
      - 2.6.0
    * - BETA
+     - :doc:`Wattstopper PLUS<iom/BETA/Wattstopper PLUS>`
+     - 2.0.0.BETA2
+     - Integrate with Wattstopper PLUS via a System Support Unit (SSU)
+     - 2.6.0
+   * - BETA
      - :doc:`Zencontrol TPI<iom/BETA/Zencontrol TPI>`
      - 2.0.0.BETA1
      - Interact with Zencontrol Third Party Interface (TPI)

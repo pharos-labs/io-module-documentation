@@ -1,0 +1,142 @@
+# Wattstopper PLUS - Version 2.0.0.BETA2
+
+[//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
+
+[//]: # (Properties should be surrounded by eg. *Property Name*)
+[//]: # (Values and options should be surrounded by eg. <code>Value</code>)
+
+## Module Summary
+
+Integrate with Legrand Wattstopper PLUS via a System Support Unit (SSU).
+
+[//]: # (Brief description of the module; usually the same as the description in the package)
+
+## Module Status
+
+[//]: # (UNCOMMENT AND DELETE AS APPROPRIATE)
+[//]: # (This IO Module is stable and has been tested internally.)
+**Note:** Please be aware that this is a beta version of this IO Module which has not yet been fully tested. We recommend testing before use.
+
+[//]: # (Always required)
+If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
+
+[//]: # (### Module Scope)
+[//]: # (If important to mention explain the limitations and things this module cannot perform)
+
+### Release Notes
+
+#### Version 2.0
+
+* &nbsp;Initial release.
+
+[//]: # (Always required)
+*Minor point releases (eg. 1.1.x) will be for small fixes and may not be listed here.*
+
+[//]: # (## Requirements)
+[//]: # (Mention any pre-requisites needed before setting up the module in terms of hardware, subscriptions, APIs)
+
+[//]: # (## Configuration)
+[//]: # (Mention any setup aspects the user should note that are generally done outside the Designer interface)
+
+## Operation
+
+[//]: # (Give operational details linked to using Instance Properties, Triggers, Conditions, Actions, Variables associated with the module's operation)
+**Note:** Throughout this module various ID numbers are required, these will be provided by the Wattstopper PLUS Certified Startup Technician.
+
+### Module Properties
+
+[//]: # (### List module properties and their function)
+
+Set the *SSU Hostname* to the host name or IP address configured on the SSU.\
+Set the *Username* and *Password* to the appropriate authentication credentials.
+
+Checking the *Extended Logging* checkbox will provide more detailed log messages. This is intended for diagnostics and problem solving and should ideally be disabled during normal operation.
+
+### Instance Properties
+
+[//]: # (### List instance properties and their function)
+
+Set the *Organization ID*, *EncSystem ID*, and *Organizational Area ID* (aka Node ID); to that provided by the Wattstopper PLUS Certified Startup Technician of the Sytem and Organizational Area to be monitored and controlled.
+
+**Note:** *Organization ID* – For on premise installations, the value is likely to be the same for all systems: 00000000-0000-0000-0000-000000000001
+
+Checking the *Extended Logging* checkbox will provide more detailed log messages. This is intended for diagnostics and problem solving and should ideally be disabled during normal operation.
+
+### Triggers
+
+[//]: # (Start with a verb such as "Fires when..." or "Receives...")
+
+#### Control Status
+Fires when the Controller receives a message that the monitored node ID has control status matching *State*.
+
+Trigger variables:
+
+* &nbsp;*Variable 1*: Organization ID (*string*).
+* &nbsp;*Variable 2*: EncSystem ID (*string*).
+* &nbsp;*Variable 3*: Node ID (*string*).
+* &nbsp;*Variable 4*: Control state (*"on"* or *"off"*).
+
+#### Current Scene
+Fires when the Controller receives a message that the monitored node ID has recalled a new scene with matching *Alias*.
+
+Trigger variables:
+
+* &nbsp;*Variable 1*: Organization ID (*string*).
+* &nbsp;*Variable 2*: EncSystem ID (*string*).
+* &nbsp;*Variable 3*: Node ID (*string*).
+* &nbsp;*Variable 4*: Scene alias (*integer*).
+
+#### Colour Temperature
+Fires when the Controller receives a message that the monitored node ID has altered colour temperature.
+
+The trigger can be restricted using *Action* to if the temperature *Changes in range* between *Minimum* and *Maximum*, or if the temperature *Enters range* between *Minimum* and *Maximum*.
+
+Trigger variables:
+
+* &nbsp;*Variable 1*: Organization ID (*string*).
+* &nbsp;*Variable 2*: EncSystem ID (*string*).
+* &nbsp;*Variable 3*: Node ID (*string*).
+* &nbsp;*Variable 4*: Colour temperature, kelvin (*integer*).
+
+#### Daylight
+Fires when the Controller receives a message that the monitored node ID has altered daylight level.
+
+The trigger can be restricted using *Action* to if the level *Changes in range* between *Minimum* and *Maximum*, or if the level *Enters range* between *Minimum* and *Maximum*.
+
+Trigger variables:
+
+* &nbsp;*Variable 1*: Organization ID (*string*).
+* &nbsp;*Variable 2*: EncSystem ID (*string*).
+* &nbsp;*Variable 3*: Node ID (*string*).
+* &nbsp;*Variable 4*: Daylight level, lux (*integer*).
+
+### Actions
+
+[//]: # (Start with a verb such as "Requests..." or "Starts...")
+
+#### Set Brightness
+
+Sends a request to the node ID to set the brightness to *Level*.
+
+#### Recall Scene
+
+Sends a request to the node ID to recall the scene *Alias*.
+
+#### Set State
+
+Sends a request to the node ID to set the control state as *On*, *Off*, or *Toggle*.
+
+#### Set Colour Temperature
+
+Sends a request to the node ID to set the colour temperature to *Temperature*.
+
+## Support
+
+[//]: # (Always required)
+If you encounter any issues with this module, please contact our support team.
+
+[//]: # (### Module Use Example)
+[//]: # (If relevant to documentation give examples of module use)
+
+[//]: # (### Further Notes)
+[//]: # (Possible location for further notes, may not be used)
