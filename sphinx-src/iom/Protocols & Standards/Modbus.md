@@ -1,4 +1,4 @@
-# Modbus - Version 2.2.0
+# Modbus - Version 2.2.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -45,6 +45,9 @@ Supports Client/Server (nee Master/Slave) operation for the following protocols 
 * 16 - Write Multiple Registers *(Server only)*
 
 ### Release Notes
+
+#### Version 2.2.1
+* TCP Clients: Action *Server ID* can be set to special value "0xFF".
 
 #### Version 2.2
 * Single consolidated module
@@ -206,7 +209,8 @@ Trigger variables:
 
 ##### Client
 
-Fires for each coil when Controller receives a matching "Read coils" response frame from the remote server.
+Fires for each coil when Controller receives a matching "Read coils" response frame from the remote server.\
+For TCP clients, the *Server ID* can be set to *0xFF*.
 
 ##### Server
 
@@ -225,7 +229,8 @@ Trigger variables:
 
 ##### Client
 
-Fires for each discrete input when Controller receives a matching "Read discrete inputs" response frame from the remote server.
+Fires for each discrete input when Controller receives a matching "Read discrete inputs" response frame from the remote server.\
+For TCP clients, the *Server ID* can be set to *0xFF*.
 
 ##### Server
 
@@ -244,7 +249,8 @@ Trigger variables:
 
 ##### Client
 
-Fires for each holding register when Controller receives a matching "Read holding registers" response frame from the remote server.
+Fires for each holding register when Controller receives a matching "Read holding registers" response frame from the remote server.\
+For TCP clients, the *Server ID* can be set to *0xFF*.
 
 ##### Server
 
@@ -265,7 +271,8 @@ Trigger variables:
 
 ##### Client
 
-Fires for each input register when Controller receives a matching "Read input registers" response frame from the remote server.
+Fires for each input register when Controller receives a matching "Read input registers" response frame from the remote server.\
+For TCP clients, the *Server ID* can be set to *0xFF*.
 
 Trigger variables:
 
@@ -290,7 +297,8 @@ Trigger variables:
 
 ##### Client
 
-Fires when the Controller receives a matching "Write single coil" success response frame from a remote server.
+Fires when the Controller receives a matching "Write single coil" success response frame from a remote server.\
+For TCP clients, the *Server ID* can be set to *0xFF*.
 
 ##### Server
 
@@ -307,7 +315,8 @@ Trigger variables:
 
 ##### Client
 
-Fires when the Controller receives a matching "Write single register" success response frame from a remote server.
+Fires when the Controller receives a matching "Write single register" success response frame from a remote server.\
+For TCP clients, the *Server ID* can be set to *0xFF*.
 
 ##### Server
 

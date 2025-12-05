@@ -274,9 +274,9 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`MQTT Client<iom/Protocols & Standards/MQTT Client>`
-     - 2.2.5
+     - 2.3.4
      - Subscribes to topics and publishes MQTT messages to a MQTT Broker
-     - 2.2.0
+     - 2.2.1
    * - Protocols & Standards
      - :doc:`Maintained TCP Connection<iom/Protocols & Standards/Maintained TCP Connection>`
      - 2.1.1
@@ -284,7 +284,7 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`Modbus<iom/Protocols & Standards/Modbus>`
-     - 2.2.0
+     - 2.2.1
      - Integrate with Modbus serial and/or ethernet systems as client and/or server
      - 2.6.0
    * - Protocols & Standards

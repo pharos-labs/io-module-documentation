@@ -1,4 +1,4 @@
-# MQTT Client - Version 2.2.5
+# MQTT Client - Version 2.3.4
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -16,6 +16,22 @@ Subscribes to topics and publishes MQTT messages to a MQTT Broker.
 If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
 
 #### Release Notes
+
+#### Version 2.3.4
+* &nbsp;Increase required IoM API version to 2.2.1
+* &nbsp;Fix ping requests
+* &nbsp;Fix publish responses
+
+#### Version 2.3.3
+* &nbsp;Improved handling of internal message tracking
+
+#### Version 2.3.2
+* &nbsp;Improved support for larger payloads
+
+#### Version 2.3.1
+* &nbsp;Added ping timeout
+* &nbsp;Minor fix for Designer 2.12
+* &nbsp;Improved topic matching
 
 #### Version 2.2.5
 * &nbsp;When using SSL, the disconnected handler is now only called once
@@ -114,6 +130,8 @@ If *Enable SSL* is selected, a secure TCP connection will be used. This should _
 The *Client ID* is sent to the MQTT Broker when a connection is initialised. If the *Client ID* field is left blank, a 10 digit random number will be generated.
 
 The *User Name* and *Password* are optional fields, but must be filled if the MQTT broker requires credentials to be used, otherwise, the connection will be refused.
+
+If pings are utilised, then *Ping Timeout* determines the time between a ping being sent and no response (be that ping reply or other) from the remote server, before a disconnect is triggered.
 
 *QoS Timeout Delay* and *QoS Max Resend Attempts* are use for QoS level *At Least Once* (1) and *Exactly Once* (2), when sending Subscribe and Publish requests to the Broker.
 
