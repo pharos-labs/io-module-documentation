@@ -553,6 +553,11 @@
      - Integrates with a Advatek PixLite
      - 2.2.0
    * - BETA
+     - :doc:`Allen and Heath Mixer Control<iom/BETA/Allen and Heath Mixer Control>`
+     - 2.0.0.BETA1
+     - Interact with an Allen and Heath Mixer using AHM TCP/IP Protocol
+     - 2.7.0
+   * - BETA
      - :doc:`Casambi Lithernet Gateway<iom/BETA/Casambi Lithernet Gateway>`
      - 2.1.0.BETA1
      - Sends commands to and receives data from Lithernet Casambi Gateway
