@@ -558,6 +558,11 @@
      - Interact with an Allen and Heath Mixer using AHM TCP/IP Protocol
      - 2.7.0
    * - BETA
+     - :doc:`Backstage Control - Kiss the Frog<iom/BETA/Backstage Control - Kiss the Frog>`
+     - 2.0.0.BETA1
+     - Integrate with Kiss the Frog MQTT servers
+     - 2.6.0
+   * - BETA
      - :doc:`Casambi Lithernet Gateway<iom/BETA/Casambi Lithernet Gateway>`
      - 2.1.0.BETA1
      - Sends commands to and receives data from Lithernet Casambi Gateway
