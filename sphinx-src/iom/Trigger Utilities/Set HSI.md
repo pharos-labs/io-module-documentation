@@ -1,4 +1,4 @@
-# Set HSI - Version 2.0.3
+# Set HSI - Version 2.0.4
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 

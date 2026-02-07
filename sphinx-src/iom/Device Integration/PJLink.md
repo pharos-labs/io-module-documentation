@@ -1,4 +1,4 @@
-# PJLink - Version 2.1.0
+# PJLink - Version 2.1.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -22,9 +22,10 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Release Notes
 
-#### Version 2.1
+#### Version 2.1.1
 
 * &nbsp;Faster detection of connection timeouts.
+* &nbsp;Status variables for connection, and message tracking.
 
 #### Version 2.0
 
@@ -75,6 +76,34 @@ Once authenticated, a connection will be established between the Controller and 
 Set the *Projector IP Address* and *Port* to that of the PJLink projector.
 
 If required, enter the *Password* to authenticate with the projector.
+
+#### Status Variables
+
+The IO Modules tab of the web interface provides status variables to shows information about the module and monitor its state.
+
+<table>
+    <style type="text/css">
+    td {
+        padding: 3 10px;
+    }
+    </style>
+    <tbody>
+    <tr class="separator"></tr>
+    <tr>
+        <td>Connected</td>
+        <td>Is connected to the projector (true/false)</td>
+    </tr>
+    <tr>
+        <td>Last command sent</td>
+        <td>Last command sent to the projector, with timestamp</td>
+    </tr>
+    <tr>
+        <td>Last query response</td>
+        <td>Last command response received from the projector, with timestamp</td>
+    </tr>
+    <tr class="separator"></tr>
+    </tbody>
+</table>
 
 ### Triggers
 

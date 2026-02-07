@@ -84,7 +84,7 @@
      - 2.3.0
    * - Device Integration
      - :doc:`PJLink<iom/Device Integration/PJLink>`
-     - 2.1.0
+     - 2.1.1
      - Controls and queries PJLink projectors
      - 2.2.0
    * - Device Integration
@@ -454,7 +454,7 @@
      - 2.2.0
    * - Trigger Utilities
      - :doc:`Set HSI<iom/Trigger Utilities/Set HSI>`
-     - 2.0.3
+     - 2.0.4
      - Sets a Group or Fixture override by HSI values
      - 2.2.0
    * - Trigger Utilities
