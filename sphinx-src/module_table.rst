@@ -559,7 +559,7 @@
      - 2.7.0
    * - BETA
      - :doc:`Backstage Control - Kiss the Frog<iom/BETA/Backstage Control - Kiss the Frog>`
-     - 2.0.0.BETA1
+     - 2.0.0.BETA2
      - Integrate with Kiss the Frog MQTT servers
      - 2.6.0
    * - BETA

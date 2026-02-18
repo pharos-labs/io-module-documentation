@@ -1,4 +1,4 @@
-# Backstage Control - Kiss the Frog - Version 2.0.0.BETA1
+# Backstage Control - Kiss the Frog - Version 2.0.0.BETA2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
