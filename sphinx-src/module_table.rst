@@ -294,9 +294,9 @@
      - 2.2.0
    * - Protocols & Standards
      - :doc:`Ping<iom/Protocols & Standards/Ping>`
-     - 2.0.1
+     - 2.1.0
      - Send an ICMP ping to monitor the online status of a remote peer
-     - 2.6.0
+     - 2.8.0
    * - Protocols & Standards
      - :doc:`Syslog<iom/Protocols & Standards/Syslog>`
      - 2.0.0

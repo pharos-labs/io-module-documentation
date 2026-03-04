@@ -1,4 +1,4 @@
-# Ping - Version 2.0.1
+# Ping - Version 2.1.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -24,6 +24,10 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 ### Release Notes
+
+#### Version 2.1
+
+* &nbsp;*Ping Timeout* trigger variables includes the target's IP address.
 
 #### Version 2.0
 
@@ -107,6 +111,10 @@ Trigger variables:
 
 [//]: # (Start with a verb such as "Fires when..." or "Receives...")
 Fires when the Controller times out waiting for a ping reply.
+
+Trigger variables:
+
+* &nbsp;*Variable 1*: IP Address of target.
 
 ### Conditions
 
