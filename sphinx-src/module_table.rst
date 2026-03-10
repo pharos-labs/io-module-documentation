@@ -464,7 +464,7 @@
      - 2.2.0
    * - Trigger Utilities
      - :doc:`Set and Get Variables<iom/Trigger Utilities/Set and Get Variables>`
-     - 2.1.1
+     - 2.1.2
      - Sets and gets stored variables to be used in actions
      - 2.2.0
    * - Trigger Utilities

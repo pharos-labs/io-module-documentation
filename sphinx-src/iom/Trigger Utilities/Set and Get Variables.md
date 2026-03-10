@@ -1,4 +1,4 @@
-# Set and Get Variables - Version 2.1.1
+# Set and Get Variables - Version 2.1.2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -18,6 +18,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 * &nbsp;Renamed *Insert Values* to *Inject Values*.
 * &nbsp;Added instance options to *Display Value Keys* and *Display Value Types* in status variables.
+* &nbsp;Fix matching empty *Keys* filter.
 
 #### Version 2.0
 
