@@ -1,4 +1,4 @@
-# UK Tide Times - Version 2.0.1
+# UK Tide Times - Version 2.0.2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -25,6 +25,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 * &nbsp;Updated documentation.
 * &nbsp;Added status variables.
 * &nbsp;Added *Tide Status* Condition.
+* &nbsp;Improved retry logic on poll failure.
 
 *Minor point releases (eg. 1.1.x) will be for small fixes and may not be listed here.*
 

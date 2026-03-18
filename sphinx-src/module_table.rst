@@ -539,7 +539,7 @@
      - 2.3.0
    * - Web Services
      - :doc:`UK Tide Times<iom/Web Services/UK Tide Times>`
-     - 2.0.1
+     - 2.0.2
      - Receives high and low tide information for a specified location in UK
      - 2.2.0
    * - BETA
@@ -629,7 +629,7 @@
      - 2.7.0
    * - BETA
      - :doc:`RDM Discovery<iom/BETA/RDM Discovery>`
-     - 2.0.1.BETA6
+     - 2.0.1.BETA7
      - Discovers RDM fixtures and notifies of changes
      - 2.6.0
    * - BETA
