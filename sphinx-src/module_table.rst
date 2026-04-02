@@ -644,7 +644,7 @@
      - 2.6.0
    * - BETA
      - :doc:`Wattstopper PLUS<iom/BETA/Wattstopper PLUS>`
-     - 2.0.0.BETA2
+     - 2.0.0.BETA3
      - Integrate with Wattstopper PLUS via a System Support Unit (SSU)
      - 2.6.0
    * - BETA

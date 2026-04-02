@@ -1,4 +1,4 @@
-# Wattstopper PLUS - Version 2.0.0.BETA2
+# Wattstopper PLUS - Version 2.0.0.BETA3
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -66,7 +66,19 @@ Checking the *Extended Logging* checkbox will provide more detailed log messages
 
 [//]: # (Start with a verb such as "Fires when..." or "Receives...")
 
-#### Control Status
+#### Brightness
+Fires when the Controller receives a message that the monitored node ID has altered brightness.
+
+The trigger can be restricted using *Action* to if the brightness *Changes in range* between *Minimum* and *Maximum*, or if the brightness *Enters range* between *Minimum* and *Maximum*.
+
+Trigger variables:
+
+* &nbsp;*Variable 1*: Organization ID (*string*).
+* &nbsp;*Variable 2*: EncSystem ID (*string*).
+* &nbsp;*Variable 3*: Node ID (*string*).
+* &nbsp;*Variable 4*: Brightness percent (*number*).
+
+#### State
 Fires when the Controller receives a message that the monitored node ID has control status matching *State*.
 
 Trigger variables:
@@ -76,7 +88,7 @@ Trigger variables:
 * &nbsp;*Variable 3*: Node ID (*string*).
 * &nbsp;*Variable 4*: Control state (*"on"* or *"off"*).
 
-#### Current Scene
+#### Scene
 Fires when the Controller receives a message that the monitored node ID has recalled a new scene with matching *Alias*.
 
 Trigger variables:
@@ -97,18 +109,6 @@ Trigger variables:
 * &nbsp;*Variable 2*: EncSystem ID (*string*).
 * &nbsp;*Variable 3*: Node ID (*string*).
 * &nbsp;*Variable 4*: Colour temperature, kelvin (*integer*).
-
-#### Daylight
-Fires when the Controller receives a message that the monitored node ID has altered daylight level.
-
-The trigger can be restricted using *Action* to if the level *Changes in range* between *Minimum* and *Maximum*, or if the level *Enters range* between *Minimum* and *Maximum*.
-
-Trigger variables:
-
-* &nbsp;*Variable 1*: Organization ID (*string*).
-* &nbsp;*Variable 2*: EncSystem ID (*string*).
-* &nbsp;*Variable 3*: Node ID (*string*).
-* &nbsp;*Variable 4*: Daylight level, lux (*integer*).
 
 ### Actions
 
