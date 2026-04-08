@@ -54,7 +54,7 @@
      - 2.3.0
    * - Device Integration
      - :doc:`Expert<iom/Device Integration/Expert>`
-     - 2.0.0
+     - 2.0.1
      - Interacts with an Expert controller using Pharos HTTP API
      - 2.4.0
    * - Device Integration

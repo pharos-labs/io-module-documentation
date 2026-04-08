@@ -1,4 +1,4 @@
-# Expert - Version 2.0.0
+# Expert - Version 2.0.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -24,6 +24,10 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 ### Release Notes
+
+#### Version 2.0.1
+
+* &nbsp;Fixes a potential issue when using authentication.
 
 #### Version 2.0
 
