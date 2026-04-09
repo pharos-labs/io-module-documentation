@@ -119,7 +119,6 @@
    Start Random Scene <iom/Trigger Utilities/Start Random Scene>
    Start Random Timeline <iom/Trigger Utilities/Start Random Timeline>
    Start Random Timeline or Scene <iom/Trigger Utilities/Start Random Timeline or Scene>
-   Test IO Module <iom/Trigger Utilities/Test IO Module>
 .. toctree::
    :caption: Web Services
    :hidden:
