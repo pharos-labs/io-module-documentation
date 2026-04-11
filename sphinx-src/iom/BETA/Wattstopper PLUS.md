@@ -1,4 +1,4 @@
-# Wattstopper PLUS - Version 2.0.0.BETA3
+# Wattstopper PLUS - Version 2.0.0.BETA4
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
