@@ -11,7 +11,7 @@
    Color Kinetics Luminous Textile <iom/Device Integration/Color Kinetics Luminous Textile>
    DiGidot <iom/Device Integration/DiGidot>
    ETC Response SnapBack <iom/Device Integration/ETC Response SnapBack>
-   Expert <iom/Device Integration/Expert>
+   Express <iom/Device Integration/Express>
    Genelec Smart IP <iom/Device Integration/Genelec Smart IP>
    KissBox IO CardCages <iom/Device Integration/KissBox IO CardCages>
    Level Developments LCH-360 <iom/Device Integration/Level Developments LCH-360>

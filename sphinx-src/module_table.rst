@@ -53,9 +53,9 @@
      - Interact with an ETC Response SnapBack
      - 2.3.0
    * - Device Integration
-     - :doc:`Expert<iom/Device Integration/Expert>`
-     - 2.0.1
-     - Interacts with an Expert controller using Pharos HTTP API
+     - :doc:`Express<iom/Device Integration/Express>`
+     - 2.0.2
+     - Interacts with an Express controller using Pharos HTTP API
      - 2.4.0
    * - Device Integration
      - :doc:`Genelec Smart IP<iom/Device Integration/Genelec Smart IP>`
