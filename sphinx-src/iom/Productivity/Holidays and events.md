@@ -1,4 +1,4 @@
-# Holidays and events - Version 2.0.0
+# Holidays and events - Version 2.1.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -23,13 +23,14 @@ If you encounter any issues with this module, or have any feedback regarding its
 ### Module Scope
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
-The module is limited to the following catagories:
+The module is limited to the following categories:
 * Public and/or Bank Holidays for:
 
     - England and Wales<sup>1</sup>
     - Northern Ireland<sup>1</sup>
     - Scotland<sup>1</sup>
-    - Netherlands
+    - Nederlands (Netherlands)
+    - Sverige (Sweden)
 
 * Federal Holidays for:
 
@@ -41,6 +42,10 @@ i.e. December 25th 2022 was a Sunday, so the Bank holiday occurred on Monday Dec
 Details of the event days for the current year will be posted to the logs if *Extended Logging* is enabled.
 
 ### Release Notes
+
+#### Version 2.1
+
+* Added Swedish public holidays
 
 #### Version 2.0
 

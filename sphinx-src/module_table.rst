@@ -194,7 +194,7 @@
      - 2.2.0
    * - Productivity
      - :doc:`Holidays and events<iom/Productivity/Holidays and events>`
-     - 2.0.0
+     - 2.1.0
      - National Holidays and events triggering
      - 2.3.0
    * - Productivity
@@ -594,7 +594,7 @@
      - 2.6.0
    * - BETA
      - :doc:`Lutron Athena/Vive (LEAP API)<iom/BETA/Lutron Athena Vive (LEAP API)>`
-     - 2.2.0.BETA4
+     - 2.2.0.BETA5
      - Lutron Extensible Application Protocol (LEAP)
      - 2.4.0
    * - BETA
