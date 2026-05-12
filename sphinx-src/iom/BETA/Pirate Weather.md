@@ -1,4 +1,4 @@
-# Pirate Weather - Version 2.0.0.BETA1
+# Pirate Weather - Version 2.0.0.BETA2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 

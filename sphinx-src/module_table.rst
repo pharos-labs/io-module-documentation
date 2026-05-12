@@ -619,7 +619,7 @@
      - 2.6.0
    * - BETA
      - :doc:`Pirate Weather<iom/BETA/Pirate Weather>`
-     - 2.0.0.BETA1
+     - 2.0.0.BETA2
      - Receives weather conditions and forecasts for the project location
      - 2.7.0
    * - BETA
