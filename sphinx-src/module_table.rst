@@ -504,7 +504,7 @@
      - 2.2.0
    * - Web Services
      - :doc:`Email Notification<iom/Web Services/Email Notification>`
-     - 2.2.2
+     - 2.3.1
      - Sends notification emails
      - 2.6.0
    * - Web Services

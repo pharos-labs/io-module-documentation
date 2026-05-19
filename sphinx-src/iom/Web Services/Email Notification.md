@@ -1,4 +1,4 @@
-# Email Notification - Version 2.2.2
+# Email Notification - Version 2.3.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -13,6 +13,12 @@ This IO Module is stable and has been tested internally.
 If you encounter any issues with this module, or have any feedback regarding its operation, please contact our support team.
 
 ### Release Notes
+
+#### Version 2.3.1
+* &nbsp;Allow multiple concurrent Send Notification actions
+
+#### Version 2.3
+* &nbsp;Improved support for controller variants.
 
 #### Version 2.2.2
 * &nbsp;Added error feedback to logs and Web UI.
@@ -44,25 +50,13 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 ### Module Scope
 
-**Note:** The modules uses an external service, the Mailgun API and there is therefore we operatre a fair usage policy with a maximum number of emails that can be sent per day, per Controller.
+**Note:** The modules uses an external service, therefore we operate a fair usage policy with a maximum number of emails that can be sent per day, per Controller.
 
-This is disaplyed in the log and in status variables. If you require sending more than the maximum in a day, please contact support.
+This is displayed in the log and in status variables. If you require sending more than the maximum in a day, please contact support.
 
 ## Operation
 
 [//]: # (Give all the operational details linked to using Instance Properties, Triggers, Conditions, Actions, Variables associated with the module's operation)
-
-### Instance Properties
-
-Set *From* to the email address and/or name you wish to show as the sender of the email.
-
-[//]: # (Describe relevant instance properties if there are any beyond the name)
-
-[//]: # (### Triggers)
-[//]: # (An event received by the controller that can be acted upon to create a reaction)
-
-[//]: # (### Conditions)
-[//]: # (Conditions are other criteria that need to be met after a trigger to activate an Action)
 
 #### Status Variables
 
