@@ -544,7 +544,7 @@
      - 2.7.0
    * - BETA
      - :doc:`Advatek PixLite MK3<iom/BETA/Advatek PixLite MK3>`
-     - 2.1.0.BETA1
+     - 2.1.0.BETA2
      - Integrates with a Advatek PixLite
      - 2.2.0
    * - BETA

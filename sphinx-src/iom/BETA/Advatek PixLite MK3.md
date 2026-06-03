@@ -1,4 +1,4 @@
-# Advatek PixLite MK3 - Version 2.1.0.BETA1
+# Advatek PixLite MK3 - Version 2.1.0.BETA2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -7,7 +7,7 @@
 
 ## Module Summary
 
-Queries an Advatek PixLite MK3 Controller.
+Queries and controls an Advatek PixLite MK3 controller.
 
 ## Module Status
 
@@ -23,7 +23,11 @@ If you encounter any issues with this module, or have any feedback regarding its
 ### Release Notes
 
 #### Version 2.1
+* &nbsp;Updates required API to v1.7
 * &nbsp;Adds Trigger match types "Is NOT In Range" and "Exits Range".
+* &nbsp;Adds Action *Start Scene*
+* &nbsp;Adds Action *Live Mode*
+* &nbsp;Adds Action *Test Mode*
 
 #### Version 2.0
 
@@ -220,6 +224,22 @@ until the Controller is rebooted or a *Stop Identify* Action is called.
 #### Stop Identify
 
 Sends a request to the PixLite MK3 Controller to stop identifying itself if it is already in the identify mode.
+
+#### Start Scene
+
+Sends a request to the PixLite MK3 Controller to play the filename *Scene*.\
+If the filename extension ".scn" will appended if omitted.\
+The file must already exist on the PixLite SD card.
+
+#### Live Mode
+
+Sends a request to the PixLite MK3 Controller to trigger live mode.
+
+#### Test Mode
+
+Sends a request to the PixLite MK3 Controller to trigger the selected *Mode* on *Port Number*/*Pixel Number*.
+
+*Red*, *Green*, *Blue*, *White*; can be set for *Mode* "Set Colour".
 
 ## Support
 
