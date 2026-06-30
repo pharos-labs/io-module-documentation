@@ -364,7 +364,7 @@
      - 2.5.0
    * - System Integration
      - :doc:`Philips Hue<iom/System Integration/Philips Hue>`
-     - 2.3.0
+     - 2.3.1
      - Controls a Philips Hue system
      - 2.4.0
    * - System Integration
@@ -554,7 +554,7 @@
      - 2.7.0
    * - BETA
      - :doc:`Backstage Control - Kiss the Frog<iom/BETA/Backstage Control - Kiss the Frog>`
-     - 2.0.0.BETA3
+     - 2.0.0.BETA4
      - Integrate with Kiss the Frog MQTT servers
      - 2.6.0
    * - BETA

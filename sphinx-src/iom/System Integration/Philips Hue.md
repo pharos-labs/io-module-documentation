@@ -1,4 +1,4 @@
-# Philips Hue - Version 2.3.0
+# Philips Hue - Version 2.3.1
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -18,9 +18,10 @@ This IO module can only be used to control lights within a configured system. - 
 
 ### Release Notes
 
-#### Version 2.3
+#### Version 2.3.1
 
 * &nbsp;Adds support for Philips Hue Pro bridges by adding support for HTTPs.
+* &nbsp;Adds Extended Logging instance property
 
 #### Version 2.2
 
@@ -80,6 +81,8 @@ One module instance must be created for each Hue bridge in a system.
 Enter the *Username* retrieved from step 7. of the *Configuration above*, above
 
 Check *Use HTTPS* to enable the use of secure HTTP as required by the bridge.
+
+Checking the *Extended Logging* checkbox will provide more detailed log messages. This is intended for diagnostics and problem solving and should ideally be disabled during normal operation.
 
 [//]: # (### Triggers)
 [//]: # (An event received by the Controller that can be acted upon to create a reAction)
