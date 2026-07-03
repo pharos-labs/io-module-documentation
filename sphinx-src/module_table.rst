@@ -84,7 +84,7 @@
      - 2.3.0
    * - Device Integration
      - :doc:`PJLink<iom/Device Integration/PJLink>`
-     - 2.1.1
+     - 2.2.0
      - Controls and queries PJLink projectors
      - 2.2.0
    * - Device Integration
@@ -632,6 +632,11 @@
      - 2.0.0.BETA1
      - Control and monitor Server Technology PDUs
      - 2.3.0
+   * - BETA
+     - :doc:`Socomec Diris PMD<iom/BETA/Socomec Diris PMD>`
+     - 2.0.0.BETA1
+     - Interact with Socomec Diris Power Monitoring Device (PMD)
+     - 2.7.0
    * - BETA
      - :doc:`WEAD ATR<iom/BETA/WEAD ATR>`
      - 2.1.0.BETA1

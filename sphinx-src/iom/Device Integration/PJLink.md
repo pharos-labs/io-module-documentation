@@ -1,4 +1,4 @@
-# PJLink - Version 2.1.1
+# PJLink - Version 2.2.0
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -21,6 +21,12 @@ If you encounter any issues with this module, or have any feedback regarding its
 [//]: # (If important to mention explain the limitations and things this module cannot perform)
 
 ### Release Notes
+
+#### Version 2.2
+
+* &nbsp;Adds Extended Logging instance property.
+* &nbsp;Expands Status Variables.
+* &nbsp;Fixes password authentication.
 
 #### Version 2.1.1
 
@@ -54,7 +60,7 @@ Triggers give the user the ability to create sub routines in response to the pro
 
 #### Error messages
 
-Not be confused with error messages reported from projector about it's hardware, these error messages are normally flagged when either a command has been sent at the wrong time (when the projector is in standby) or when the command parameter is incorrect eg. if RGB input number 7 has been selected but does not exist on the projector.
+Not be confused with error messages reported from the projector about its hardware, these error messages are normally flagged when either a command has been sent at the wrong time (when the projector is in standby) or when the command parameter is incorrect eg. if RGB input number 7 has been selected but does not exist on the projector.
 
 The error messages are as follows:
 
@@ -62,6 +68,7 @@ The error messages are as follows:
 * &nbsp;Error 2: Out of parameter
 * &nbsp;Error 3: Unavailable time
 * &nbsp;Error 4: Projector/Display failure
+* &nbsp;Error A: Error Authorization
 
 #### Authentication procedure
 
@@ -76,6 +83,8 @@ Once authenticated, a connection will be established between the Controller and 
 Set the *Projector IP Address* and *Port* to that of the PJLink projector.
 
 If required, enter the *Password* to authenticate with the projector.
+
+Checking the *Extended Logging* checkbox will provide more detailed log messages. This is intended for diagnostics and problem solving and should ideally be disabled during normal operation.
 
 #### Status Variables
 
@@ -100,6 +109,50 @@ The IO Modules tab of the web interface provides status variables to shows infor
     <tr>
         <td>Last query response</td>
         <td>Last command response received from the projector, with timestamp</td>
+    </tr>
+    <tr>
+        <td>Display Name</td>
+        <td>The projector name or "no data"</td>
+    </tr>
+    <tr>
+        <td>Power Status</td>
+        <td>The projector's last polled power status: "Power-off (standby)", "Power-on (lamp-on)", "Cooling", "Warm-up", "no data"</td>
+    </tr>
+    <tr>
+        <td>Current Input</td>
+        <td>The projector's last polled current input number and input type or "no data"</td>
+    </tr>
+    <tr>
+        <td>Mute Status</td>
+        <td>The projector's last polled mute status: "Video mute ON", "Audio mute ON", "Video and audio mute ON", "Video and audio mute OFF", "no data"</td>
+    </tr>
+    <tr>
+        <td>Lamp Hours</td>
+        <td>A comma separated list of the projector's last polled lamp hours</td>
+    </tr>
+    <tr>
+        <td>Fan Status</td>
+        <td>The projector's last polled fan status or "no data"</td>
+    </tr>
+    <tr>
+        <td>Lamp Status</td>
+        <td>The projector's last polled lamp status or "no data"</td>
+    </tr>
+    <tr>
+        <td>Temperature Status</td>
+        <td>The projector's last polled temperature status or "no data"</td>
+    </tr>
+    <tr>
+        <td>Cover Status</td>
+        <td>The projector's last polled cover status or "no data"</td>
+    </tr>
+    <tr>
+        <td>Filter Status</td>
+        <td>The projector's last polled filter status or "no data"</td>
+    </tr>
+    <tr>
+        <td>Other Status</td>
+        <td>The projector's last polled other (miscellaneous, projector defined) status or "no data"</td>
     </tr>
     <tr class="separator"></tr>
     </tbody>
