@@ -174,7 +174,7 @@
      - 2.2.0
    * - Productivity
      - :doc:`Counter<iom/Productivity/Counter>`
-     - 2.2.0
+     - 2.2.1
      - Fires a trigger once a given number of triggers have been received
      - 2.2.0
    * - Productivity
@@ -419,7 +419,7 @@
      - 2.3.0
    * - Trigger Utilities
      - :doc:`Modify Trigger Variables<iom/Trigger Utilities/Modify Trigger Variables>`
-     - 2.1.2
+     - 2.1.3
      - Modifies the value of variables captured by a Trigger before being passed to Actions
      - 2.2.0
    * - Trigger Utilities
@@ -554,7 +554,7 @@
      - 2.7.0
    * - BETA
      - :doc:`Backstage Control - Kiss the Frog<iom/BETA/Backstage Control - Kiss the Frog>`
-     - 2.0.0.BETA4
+     - 2.0.0.BETA5
      - Integrate with Kiss the Frog MQTT servers
      - 2.6.0
    * - BETA
