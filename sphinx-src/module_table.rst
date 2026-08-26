@@ -594,9 +594,9 @@
      - 2.6.0
    * - BETA
      - :doc:`Lutron Athena/Vive (LEAP API)<iom/BETA/Lutron Athena Vive (LEAP API)>`
-     - 2.2.0.BETA5
+     - 2.2.0.BETA6
      - Lutron Extensible Application Protocol (LEAP)
-     - 2.4.0
+     - 2.8.1
    * - BETA
      - :doc:`Lutron Quantum (Serial/Telnet)<iom/BETA/Lutron Quantum (Serial Telnet)>`
      - 2.1.0.BETA1
