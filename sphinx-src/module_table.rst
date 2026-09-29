@@ -378,6 +378,11 @@
      - Integrates with a Xicato system via the Xicato Intelligent Gateway
      - 2.4.0
    * - System Integration
+     - :doc:`Zumtobel Litecom<iom/System Integration/Zumtobel Litecom>`
+     - 2.0.0
+     - Interact with a Zumtobel Litecom system.
+     - 2.7.0
+   * - System Integration
      - :doc:`deCONZ<iom/System Integration/deCONZ>`
      - 2.0.0
      - Interacts with DeCONZ Gateways

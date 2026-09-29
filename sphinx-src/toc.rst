@@ -92,6 +92,7 @@
    Philips Hue <iom/System Integration/Philips Hue>
    Sorama Smart Stadium <iom/System Integration/Sorama Smart Stadium>
    Xicato <iom/System Integration/Xicato>
+   Zumtobel Litecom <iom/System Integration/Zumtobel Litecom>
    deCONZ <iom/System Integration/deCONZ>
 .. toctree::
    :caption: Trigger Utilities
