@@ -1,4 +1,4 @@
-# Dynalite DyNet - Version 2.6.0.BETA1
+# Dynalite DyNet - Version 2.6.0.BETA2
 
 [//]: # (THIS IS WHAT A COMMENT LOOKS LIKE)
 
@@ -38,6 +38,7 @@ If you encounter any issues with this module, or have any feedback regarding its
 
 #### Version 2.6
 * New combined module replacing *Dynalite DyNet (Serial)* and *Dynalite DyNet (IP)*
+* Adds support for TCP TLS (Secure Trunk)
 
 *Minor point releases (eg. 1.1.x) will be for small fixes and may not be listed here.*
 
@@ -173,7 +174,12 @@ Checking the <code>*Extended Logging*</code> checkbox will provide more detailed
 #### Mode IP
 The <code>*PEDG IP Address*</code> defines the IP address for the Philips Dynalite Ethernet Gateway (PDEG).
 
-Select the communication <code>*Protocol*</code> (TCP or UDP) as well as the <code>*PDEG Server Port Number*</code>, and <code>*Controller Port Number*</code>. These should match the settings configured for the PDEG.
+Select the communication <code>*Protocol*</code> (TCP, UDP, or TCP TLS (Secure Trunk)) as well as the <code>*PDEG Server Port Number*</code>, and <code>*Controller Port Number*</code>. These should match the settings configured for the PDEG.
+
+##### TCP TLS (Secure Trunk)
+
+When the *TCP TLS (Secure Trunk)* is selected as the <code>*Protocol*</code>, the properties <code>*Certificate*</code> and <code>*Key*</code> are available.
+These should be populated with PEM encoded user certificate and matching private key required to authenticate with the PDEG.
 
 #### Mode Serial
 Use <code>*Serial Port*</code> to specify which physical port is communicating with the DyNet Network. The settings for communication with the DyNet Network over serial need to be set for the Controller from the Interfaces tab within the Network view of Designer. Use the following settings:

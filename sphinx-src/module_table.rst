@@ -584,9 +584,9 @@
      - 2.2.0
    * - BETA
      - :doc:`Dynalite DyNet<iom/BETA/Dynalite DyNet>`
-     - 2.6.0.BETA1
+     - 2.6.0.BETA2
      - Integrates with Philips Dynalite using DyNet
-     - 2.6.0
+     - 2.8.1
    * - BETA
      - :doc:`Hive<iom/BETA/Hive>`
      - 2.0.0.BETA1
