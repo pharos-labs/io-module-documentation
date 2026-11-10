@@ -1,4 +1,4 @@
-# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA6
+# Lutron Athena/Vive (LEAP API) - Version 2.2.0.BETA7
 
 
 <h2>Module Summary</h2>
@@ -13,8 +13,9 @@ Please refer to the <em>Associate</em> action documentation below.</br></p>
 
 
 <h3>Release Notes</h3>
-<h4>Version 2.2 (Beta 6)</h4>
+<h4>Version 2.2 (Beta 7)</h4>
 <ul>
+<li><b>Conditions now expect values, previously these only expected variable index</b></li>
 <li>Increased maximum allowable LEAP ID to 999,999,999</li>
 <li>Clears local cache on Lutron Ethernet bridge project change</li>
 <li>Improved logging</li>
@@ -75,7 +76,7 @@ Please refer to the <em>Associate</em> action documentation below.</br></p>
 <h2>Operation</h2>
 <h3>Instance Properties</h3>
 <p>Checking the <em>Auto reconnect</em> checkbox will instruct the module to automatically reconnect to the Ethernet bridge in the event of an unexpected disconnection.</p>
-<p>Checking the <em>Extended Logging</em> checkbox will provide more detailed log messages.\</p>
+<p>Checking the <em>Extended Logging</em> checkbox will provide more detailed log messages.</p>
 
 This is intended for diagnostics and problem solving and should ideally be disabled during normal operation.
 <p><em>Ethernet bridge serial</em> is used by the trigger <em>Discovered</em>.</p>
@@ -439,12 +440,12 @@ This can occur if the Controller hasn't yet been associated with the current LEA
 <p>Matches if the controller is currently connected to a bridge.</p>
 <div class="athena">
 <h4>Area: Scene <b><i>(Athena only)</i></b></h4>
-<p>Matches if the active scene (stored in variable <em>Scene (Variable #)</em>) number in the area (stored in variable <em>Number (Variable #)</em>) matches.
-If both <em>Number (Variable #)</em> and <em>Scene (Variable #)</em> are 'any', then a Lua table of active scenes is returned.</p>
+<p>Matches if the active <em>Scene</em> in the area matches.
+If both <em>Number</em> and <em>Scene</em> are 'any', then a Lua table of active scenes is returned.</p>
 <p>Condition properties:</p>
 <ul>
-<li><i>Number (Variable #)</i> Variable number containing matching area number, or 'any'.</li>
-<li><i>Scene (Variable #)</i> Variable number containing matching scene number, or 'any'.</li>
+<li><i>Number</i> Matching area number, or 'any'.</li>
+<li><i>Scene</i> Matching scene number, or 'any'.</li>
 </ul>
 <p>Condition variables:</p>
 <ol>
@@ -461,11 +462,11 @@ end
 </ol>
 </div>
 <h4>Event: Enabled</h4>
-<p>Matches if the event (stored in variable <em>Number (Variable #)</em>) matches the <em>Enabled</em> property.
-If <em>Number (Variable #)</em> is 'any', then a Lua table of matching event state is returned.</p>
+<p>Matches if the event matches the <em>Enabled</em> property.
+If <em>Number</em> is 'any', then a Lua table of matching event state is returned.</p>
 <p>Condition properties:</p>
 <ul>
-<li><i>Number (Variable #)</i> Variable number containing matching event number, or 'any'.</li>
+<li><i>Number</i> Matching event number, or 'any'.</li>
 <li><i>Enabled</i> Matching enabled state, or 'any'.</li>
 </ul>
 <p>Condition variables:</p>
@@ -482,16 +483,15 @@ end
 </li>
 </ol>
 <h4>Event: Scheduled</h4>
-<p>Matches if the event (stored in variable <em>Number (Variable #)</em>) schedule matches the Year (stored in variable <em>Year (Variable #)</em>),
-Month (stored in variable <em>Month (Variable #)</em>), and Day (stored in variable <em>Day (Variable #)</em>) properties.
-If <em>Number (Variable #)</em> is 'any', then a Lua table of matching events is returned.
-If <em>Year (Variable #)</em>, or <em>Month (Variable #)</em>, or <em>Day (Variable #)</em> are 'now' then the current Year, and/or Month, and/or Day; are utilised.</p>
+<p>Matches if the event schedule matches the *Year8, <em>Month</em>, and <em>Day</em> properties.
+If <em>Number</em> is 'any', then a Lua table of matching events is returned.
+If <em>Year</em>, or <em>Month</em>, or <em>Day</em> are 'now' then the current Year, and/or Month, and/or Day; are utilised.</p>
 <p>Condition properties:</p>
 <ul>
-<li><i>Number(Variable #)</i> Variable number containing matching event number, or 'any'.</li>
-<li><i>Year (Variable #)</i> Variable number containing matching schedule year, or 'now'.</li>
-<li><i>Month (Variable #)</i> Variable number containing matching schedule year, or 'now'.</li>
-<li><i>Day (Variable #)</i> Variable number containing matching schedule year, or 'now'.</li>
+<li><i>Number</i> Matching event number, or 'any'.</li>
+<li><i>Year</i> Matching schedule year, or 'now'.</li>
+<li><i>Month</i> Matching schedule year, or 'now'.</li>
+<li><i>Day</i> Matching schedule year, or 'now'.</li>
 </ul>
 <p>Condition variables:</p>
 <ol>
@@ -508,11 +508,11 @@ end
 </li>
 </ol>
 <h4>Timeclock: Enabled</h4>
-<p>Matches if the timeclock (stored in variable <em>Number (Variable #)</em>) matches the <em>Enabled</em> property.
-If <em>Number (Variable #)</em> is 'any', then a Lua table of matching timeclock state is returned.</p>
+<p>Matches if the timeclock matches the <em>Enabled</em> property.
+If <em>Number</em> is 'any', then a Lua table of matching timeclock state is returned.</p>
 <p>Condition properties:</p>
 <ul>
-<li><i>Number (Variable #)</i> Variable number containing matching timeclock number, or 'any'.</li>
+<li><i>Number</i> Matching timeclock number, or 'any'.</li>
 <li><i>Enabled</i> Matching enabled state, or 'any'.</li>
 </ul>
 <p>Condition variables:</p>
@@ -529,11 +529,11 @@ end
 </li>
 </ol>
 <h4>Zone: Level</h4>
-<p>Matches if the zone (stored in variable <em>Number (Variable #)</em>) matches the zone's level using the <em>Level is</em> and <em>Level</em> properties.
-If both (stored in variable <em>Number (Variable #)</em>) is 'any', then a Lua table of current matching levels is returned.</p>
+<p>Matches if the zone matches the zone's level using the <em>Level is</em> and <em>Level</em> properties.
+If <em>Number</em> is 'any', then a Lua table of current matching levels is returned.</p>
 <p>Condition properties:</p>
 <ul>
-<li><i>Number (Variable #)</i> Variable number containing matching zone number, or 'any'.</li>
+<li><i>Number</i> Matching zone number, or 'any'.</li>
 <li><i>Level is</i> Level matching condition operator.</li>
 <li><i>Level</i> Matching level, or 'any'.</li>
 </ul>

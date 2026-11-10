@@ -599,7 +599,7 @@
      - 2.6.0
    * - BETA
      - :doc:`Lutron Athena/Vive (LEAP API)<iom/BETA/Lutron Athena Vive (LEAP API)>`
-     - 2.2.0.BETA6
+     - 2.2.0.BETA7
      - Lutron Extensible Application Protocol (LEAP)
      - 2.8.1
    * - BETA
